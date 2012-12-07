@@ -1,0 +1,256 @@
+;
+; Jasmine - Language File : Deutsch
+;
+; NOTE : This file can be used by Jasmine version 4.00 beta 3 or higher.
+;
+; Translation into German (öbersetzung ins Deutsche)
+;         by LÅko Willms <lueko.willms@t-online.de>
+;         by Robert Boeck : http://homepages.fbmev.de/bm612973/
+;    - Worked over and completed
+;         2001/12/31 by Oliver Heidelbach [http://home.snafu.de/ohei/]
+;         2002/10/31 by Oliver Heidelbach
+;         2003/02/27 by Oliver Heidelbach
+;         2003/07/28 by Oliver Heidelbach
+;
+LANGUAGE=Deutsch
+
+#MW_Jasmine
+DT_LocalDir=Lokaler Pfad,Quellpfad
+DT_RemoteDir=Host Pfad,Zielpfad
+DT_FtpSite=Host/Name
+PB_Run=AusfÅhren
+PB_Exit=Verlassen
+CM_ExitJasmine=Verlassen
+CM_MinimizeJasmine=Symbolgrî·e
+DT_Address=Adresse
+DT_UserID=Nutzer ID
+GB_Last_Upload_Date_and_Time=Letzter Transfer
+DT_Year=Jahr
+DT_Month=Monat
+DT_Day=Tag
+PB_ResetLastYear=Reset
+PB_ResetLastMonth=Reset
+PB_ResetLastDay=Reset
+PB_ResetLastTime=Reset
+DT_Hour=Stunde
+DT_Min=Minute
+PB_NewSite=Neu
+PB_DeleteSite=Lîschen
+DT_Account=Nutzerkonto
+PB_EditSite=éndern
+DT_CloseCommand=Exit Kommando
+GB_Log=Log Dateien
+RB_Log_Daily=pro Tag
+RB_Log_Monthly=pro Monat
+CB_Log=Log an
+PB_ViewLogFile=Log Manager...
+PB_Preferences=Einstellungen...
+GB_TimerRun=Zeitg.
+PB_TimerRun_Setup=éndern
+GB_Sound=Klang
+PB_SetSound=éndern
+PB_Takeout=Lîschen...
+DT_Mode=Modus
+PB_OpenLocalFolder=ôffnen
+PB_OpenRemoteFolder=ôffnen
+DT_RunMode=Arbeitsweise
+CB_CompulsoryUploadFile=ZusÑtzlich zu transferierende Dateien vor dem AusfÅhren auswÑhlen
+PB_SetAlwaysUploadFiles=Immer zu transferierende Dateien...
+PB_SetExcludedFiles=Immer zu ignorierende Dateien...
+
+#SW_CheckFile
+SW_CheckFile=Jasmine - Liste der zu transferierenden Dateien
+PB_Upload_OK=OK
+PB_Upload_Cancel=Abbrechen
+PB_ChangeUploadStatus=Status der markierten Datei Ñndern
+CM_UFL_CancelSelect=Abbrechen: Auswahl
+CM_UFL_CancelAll=Abbrechen: Alles
+
+#SW_NewSiteName
+SW_NewSiteName=Jasmine - Host/Ziel Einstellungen
+DT_NewSiteName=Host/Name
+PB_NewSite_OK=OK
+PB_NewSite_Cancel=Abbrechen
+DT_NewAddress=Adresse
+DT_NewUserID=Nutzer ID
+DT_NewPassword=Passwort
+DT_NewAccount=Nutzerkonto
+DT_NewLocalDir=Lokaler Pfad
+DT_NewRemoteDir=Host Pfad
+PB_NewSite_Clear=Lîschen
+DT_NewCloseCommand=Exit Kommando
+RB_NewMode_FTP=FTP
+RB_NewMode_Copy=Lokales Kopieren
+DT_NewSiteMode=Modus
+PB_SetCloseCommand=Suchen
+
+#SW_SetSound
+SW_SetSound=Jasmine - Klangeinstellungen
+CB_Sound_Start=Start
+CB_Sound_No_File=Nichts zu tun
+CB_Sound_Logon_Successfully=Login erfolgreich
+CB_Sound_Logon_Failed=Login gescheitert
+CB_Sound_Save_Log=Log speichern
+CB_Sound_End=Ende
+PB_Sound_OK=OK
+PB_Sound_Cancel=Abbrechen
+DT_SoundDirectory=Pfad
+PB_DefaultSoundSet=Standard
+DT_SoundVolume=Lautst.
+
+#SW_Preference
+SW_Preference=Jasmine - Einstellungen
+GB_Upload_Option=Transfer Optionen
+CB_ManageUploadFiles=Datei Manager starten
+CB_UploadFileCheck=Manuelle Dateiauswahl
+CB_RememberUploadStatus=Transferstatus speichern
+PB_ClearUploadStatusFile=Aufzeichnung lîschen
+CB_RetryFailedFile=Bei Scheitern wiederholen
+PB_ViewFailedFile=Log Datei ansehen
+CB_ChangeUpperToLower=Kleinschreibung erzwingen
+CB_LogonRetry=Login Wiederholung
+CB_IgnoreFileExtension=Dateierweiterung ignorieren
+CB_AutoTakeout=Auto Takeout
+PB_AddIgnoreFileExtension=+
+PB_DeleteIgnoreFileExtension=-
+PB_ClearIgnoreFileExtension=Lîschen
+CB_ShowIgnoredFileList=Ignorierte Dateien zeigen
+GB_Transfer_Mode=Transfer Modus (FTP)
+RB_Upload_ASCII=ASCII
+RB_Upload_Binary=BinÑr
+RB_Upload_Auto=Auto (Standard: BinÑr)
+PB_AddAsciiExtension=+
+PB_DeleteAsciiExtension=-
+PB_ClearAsciiExtension=Lîschen
+DT_ASCII_Mode_List=ASCII Modus Dateien:
+PB_OpenRegistry=Registry,öber...
+PB_ExitPreference=ZurÅck
+GB_CloseCommand=Exit Kommando
+CB_CloseCommand=AusfÅhrung aktivieren
+GB_Upload_File_Status=Transfer Datei Status
+CB_StatusTransferMode=Transfer Modus
+CB_StatusFileSize=Dateigrî·e
+CB_StatusUploadSummary=Transfer Zusammenfassung
+CB_SilentStatusIndication=Statusanzeige aus
+GB_Font=Schriftarten
+PB_SetWindowFont=éndern
+DT_WindowFont=Fenster
+DT_StatusFont=Status
+PB_SetStatusFont=éndern
+GB_Takeout=Lîschen (auf Host/Ziel)
+CB_Takeout=Lîschoption aktivieren
+GB_SequencialRunMode=Abfolge Modus
+CB_SequentialRunMode=Abfolge Modus aktivieren
+DT_Default=Standard
+CB_DisableSoundDuringSequentialRunning=Ton aus in Abfolge Modus
+GB_SetLanguage=Sprache (Neustart erforderlich)
+RB_Language_Default=Standard
+RB_Language_Custom=Angepa·t
+GB_HTML_Keyword_Exchange_Function=HTML automatisch aktualisieren (FTP)
+CB_HtmlKeywordExchange=%VARIABLEN% verwenden
+GB_HKE_FileSize=Dateigrî·e
+RB_HKE_FileSize_Bit=Bit
+RB_HKE_FileSize_Byte=Byte
+RB_HKE_FileSize_KByte=KB
+GB_HKE_DateStyle=Datumsformat
+RB_HKE_DateStyle_yyyymmdd=jjjj/mm/tt
+RB_HKE_DateStyle_ddmmyyyy=tt/mm/jjjj
+RB_HKE_DateStyle_mmddyyyy=mm/tt/jjjj
+GB_HKE_DateSeparator=Trennzeichen
+RB_HKE_DateSeparator_Slash=Slash [/]
+RB_HKE_DateSeparator_Dot=Punkt [.]
+GB_HKE_MonthIndication=Monatsanzeige
+RB_HKE_DateMonthIndication_Number=numerisch (01,02...12)
+RB_HKE_DateMonthIndication_Alphabet=alphabetisch (Jan, Feb...Dec)
+;GB_CopyOption=Kopiereinstellungen (COPY)
+;CB_CopyWhenNoTarget=Nur nicht vorhandene Dateien
+
+#SW_Registry
+
+#SW_Takeout
+SW_Takeout=Jasmine - Host/Ziel Dateien lîschen
+PB_SelectFilesNotAvailableAtLocalDirectory=Alle Dateien auswÑhlen, die lokal nicht vorhanden sind
+PB_SearchLogFiles=Lîschliste erstellen
+PB_ExitTakeout=ZurÅck
+PB_RunTakeout=Lîschen!
+PB_RunTakeoutAutomatically=Auto
+DT_TakeoutSiteName=Host/Name
+PB_ClearSelectedData=Aus Auswahl entfernen
+PB_OpenTakeoutLocalFolder=Lokales Verz. îffnen
+CM_CreateTakeoutData_Yes=OK
+CM_CreateTakeoutData_Cancel=Abbrechen
+
+#SW_AlertDeleteSite
+DT_DeleteSite=Host/Name lîschen
+PB_DeleteSiteYes=OK
+PB_DeleteSiteNo=Abbrechen
+
+#SW_SelectCompulsoryUploadFile
+SW_SelectCompulsoryUploadFile=Jasmine - ZusÑtzlich zu transferierende Dateien
+PB_Set_CompulsoryUploadFile=Festlegen
+PB_Cancel_CompulsoryUploadFile=Abbrechen
+# not clear what is meant
+CM_CUF_CancelSelect=Abbrechen: Auswahl
+CM_CUF_CancelAll=Abbrechen: Alles
+
+#SW_LogViewer
+SW_LogViewer=Jasmine - Log Dateien Manager
+DT_LogDirectory=Pfad
+DT_LV_LogFileName=Log Dateiname
+DT_LV_LogDataItems=Log EintrÑge
+DT_LV_LogDetail=Log Details
+PB_LV_ClearAllLogFiles=Alle Log Dateien lîschen
+PB_ExitLogViewer=ZurÅck
+CM_ClearAllLogFiles_Yes=OK
+CM_ClearAllLogFiles_Cancel=Abbrechen
+
+#SW_SetExcludeUploadFiles
+SW_SetExcludeUploadFiles=Jasmine - Immer zu ignorierende Dateien - Einstellungen
+DT_MUF_Directory=Verzeichnis
+DT_MUF_FileName=Dateiname (Auswahl mit Doppelklick)
+DT_MUF_ExcludedUploadFileList=Immer zu ignorierende Dateien (Entfernen mit Doppelklick)
+PB_MUF_ExcludeSelectedDirectory=Markiertes Verz. hinzufÅgen
+PB_MUF_Save=Speichern
+PB_MUF_Cancel=Abbrechen
+CM_MUF_ChangeDirectory=Verzeichnis îffnen
+CM_MUF_SetSelectedDirectory=Markiertes Verzeichnis hinzufÅgen
+CM_MUF_SetSelectedFile=Markierte Datei hinzufÅgen
+CM_MUF_RemoveSelectedFile=Markierte Datei entfernen
+
+#SW_SetAlwaysUploadFiles
+SW_SetAlwaysUploadFiles=Jasmine - Immer zu transferierende Dateien - Einstellungen
+DT_AUF_Directory=Verzeichnis
+DT_AUF_FileName=Dateiname (Auswahl mit Doppelklick)
+DT_AUF_AlwaysUploadFiles=Immer zu transferierende Dateien (Entfernen mit Doppelklick)
+PB_AUF_Save=Speichern
+PB_AUF_Cancel=Abbrechen
+DT_AUF_Once=Einmal alle
+DT_AUF_Hour=Std.
+CM_AUF_ChangeDirectory=Verzeichnis îffnen
+CM_AUF_SetSelectedFile=Markierte Datei hinzufÅgen
+CM_AUF_RemoveSelectedFile=Markierte Datei entfernen
+
+#SW_FailedFileList
+SW_FailedFileList=Jasmine - Gescheiterte Dateitransfers
+PB_ClearFailedData=Liste zurÅcksetzen
+PB_FailedFileList_Close=Schlie·en
+
+#SW_TimerRun
+SW_TimerRun=Jasmine - Zeitgeber - Einstellungen
+DT_TimerRun_Text_SiteName=Host/Name
+RB_RunRegularly=RegelmÑ·ig starten
+DT_RunRegurary_TextEvery=alle
+RB_RunFixedTime=Immer starten um
+PB_TimerRun_Set=Neu
+PB_TimerRun_Change=éndern
+PB_TimerRun_Delete=Lîschen
+PB_TimerRun_Return=ZurÅck
+CB_Create_Object_at_Startup_Folder=Neues Objekt im Ordner Systemstart
+PB_OpenStartupFolder=Ordner Systemstart îffnen
+CB_Minimized_Startup=Beim Start Symbolgrî·e
+CB_Show_Timer_Counter=Zeitgeber Anzeige einblenden
+CB_RunAtStartup=Automatisch starten ("RegelmÑ·ig")
+CM_TR_Delete=Lîschen
+CM_TR_ConfirmDelete_Yes=OK
+CM_TR_ConfirmDelete_Cancel=Abbrechen
+

@@ -1,0 +1,1176 @@
+<html>
+<head>
+<title>Jasmine readme (Japanese)</title>
+<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html" charset="Shift_Jis">
+
+<body>
+
+<p>
+<center>
+    <font face="Times New Roman" color="blick" size=7>
+    Jasmine
+    </font>
+    <br>
+    <font face="Times New Roman" size=4 color="darkgoldenrod">
+    Auto FTP Uploader
+    </font>
+    <p>
+    <font face="Times New Roman" size=3>
+    Copyright &copy; 1997-2003 Ken Kinoshita, Pretty Pop Software
+    <br>
+    e-mail :
+    <a href="mailto:prettypop@sakura.email.ne.jp">
+    prettypop@sakura.email.ne.jp</a>
+    <br>
+    </font>
+</center>
+<p>
+
+
+<center>
+<font size=3>
+<a href="http://www.prettypop.net/">
+PrettyPop.net</a>
+<br>
+<a href="readme_e.htm">
+Readme - English edition
+</a>
+</font>
+</center>
+<p>
+
+
+<div class="item">
+Jasmineについて
+</div>
+<ul>
+    JasmineはOS/2 Warpで動作する、ホームページ用ファイルのアップロード用ユーティリティ・ソフトです。
+    FTPアップロード機能の他に、ファイルのコピー機能も備えています。
+    Jasmineは変更のあったファイルを自動的に判別し、指定されたサーバー、ディレクトリにファイルをアップロード、コピーします。
+    また、アップロード、コピーしたファイルを管理し、相手のサーバー、ディレクトリからアップロード、コピーしたファイルを削除する機能も備えています。
+    <p>
+
+    JasmineはVX-REXXで作成されていますので、実行にはVX-REXXのRuntime Library `VROBJ.DLL'が必要となります。
+    `VROBJ.DLL'は下記より入手してください。
+    <p>
+    <ul>
+        <li>
+        <a href="http://www.prettypop.net/software/runtime/vrobj21d.zip">
+        Download VROBJ.DLL 2.1d (vrobj21d.zip)</a>
+    </ul>
+</ul>
+<p>
+
+
+<div class="item">
+インストール
+</div>
+<ul>
+    <li>
+    古典的インストール方法
+    <p>
+    <ol>
+        <li type=1>
+        jsm???r.zipを適当なディレクトリにコピーし、解凍します。
+        <p>
+
+        <li type=1>
+        install.cmdを実行するとJasmineのオブジェクトがデスクトップに作成されます。
+    </ol>
+    <p>
+
+    <li>
+    WarpINでインストールする (WarpINがインストールされている必要があります)
+    <p>
+    <ol>
+        <li type=1>
+        jsm???r.wpiのアイコンをダブル・クリックする。
+        <p>
+
+        <li type=1>
+        WarpINの指示に従い、インストールをする。
+    </ol>
+    <p>
+
+    WarpINは下記ホームページから入手出来ます。
+    <p>
+    <ul>
+        <li type=circle>
+        <a href="http://www.xworkplace.org/proj_warpin.html" target=_blank>
+        xworkplace.org: WarpIN</a>
+    </ul>
+</ul>
+<p>
+
+
+<div class="item">
+使用方法
+</div>
+<ul>
+    <li type=disc>
+    サイトの登録と削除
+    <p>
+    <ul>
+        <li type=circle>
+        FTPサイトの登録
+        <p>
+
+        <ol>
+            <li type=1>
+            `New'ボタンを押し、FTPサイトを登録してください。
+
+            <li type=1>
+            Modeは`FTP'を選択してください(初期値)。
+
+            <li type=1>
+            適宜、Address, User ID, Password, Account, Local Dir, Remote Dir, Exit Commandを入力してください。
+            <p>
+
+            例：朝日ネットの場合
+            <p>
+            <ul>
+                <!li type=disc>
+                <table cellspacing=0>
+                    <tr>
+                        <td>Address     </td><td>:</td><td>netftp.asahi-net.or.jp</td>
+                    </tr><tr>
+                        <td>User ID     </td><td>:</td><td>(your user id)        </td>
+                    </tr><tr>
+                        <td>Password    </td><td>:</td><td>(your password)       </td>
+                    </tr><tr>
+                        <td>Account     </td><td>:</td><td>(blank)               </td>
+                    </tr><tr>
+                        <td>Local Dir   </td><td>:</td><td>f:\wwwhome\index      </td>
+                    </tr><tr>
+                        <td>Remote Dir  </td><td>:</td><td>public_html           </td>
+                    </tr><tr>
+                        <td>Exit Command</td><td>:</td><td>(optional command)    </td>
+                    </tr>
+                </table>
+            </ul>
+            <p>
+
+            <li type=1>
+            入力が終了したら`Save'ボタンを押して設定をSaveしてください。
+        </ol>
+        <p>
+
+        <li type=circle>
+        COPYサイトの登録
+        <p>
+        <ol>
+            <li type=1>
+            `New'ボタンを押し、COPYサイトを登録してください。
+            <p>
+
+            <li type=1>
+            Modeは`COPY'を選択してください。
+            <p>
+
+            <li type=1>
+            `Source'にコピー元のディレクトリを、`Destination'にコピー先のディレクトリを入力してください。
+            <p>
+
+            <li type=1>
+            入力が終了したら`Save'ボタンを押して設定を保管してください。
+        </ol>
+        <p>
+
+        <li type=circle>
+        サイトの削除
+        <p>
+        <ul>
+            <li type=disc>
+            削除するサイトを選択し、`Delete'ボタンを押すと選択されたサイトが削除されます。
+        </ul>
+        <p>
+    </ul>
+    <p>
+
+
+    <li type=disc>
+    実行方法
+    <p>
+    <ul>
+        <li>
+        FTPの場合
+        <p>
+        <ol>
+            <li type=1>
+            インターネット接続がされていることを確認してください。
+            <p>
+
+            <li type=1>
+            `Run'ボタンを押すとアップロードが開始されます。
+        </ol>
+        <p>
+
+        <li>
+        COPYの場合
+        <p>
+        <ol>
+            <li type=1>
+            Source/Destinationにリムーバブル・ディスクやネットワーク・ドライブ等を指定している場合はドライブが接続されていることを確認してください。
+            <li type=1>
+            `Run'ボタンを押すとコピーが開始されます。
+        </ol>
+    </ul>
+    <p>
+
+
+    <li type=disc>
+    機能
+    <p>
+    <ul>
+        <li type=a>
+        ログの保存
+        <p>
+        <ul>
+            <li type=disc>
+            ログを保管するには、`Log'チェック・ボックスをチェックしてください。
+            <p>
+
+            <li type=disc>
+            ログ・ファイルは日毎、月毎にまとめて保存することができます。
+            <p>
+
+            <li type=disc>
+            ログの詳細を専用のログ・ビューワーで確認することができます。
+            <p>
+
+            <li type=disc>
+            ログ・ビューワーの`Clear All Log Files'ボタンを押すとログ・ファイルをすべて消去することができます。
+        </ul>
+        <p>
+
+        <li>
+        アップロード、コピーの機能
+        <p>
+        <ol>
+            <li type=a>
+            ログオンの再実行(FTPモード)
+            <br>
+            ログオンに失敗した時に再度ログオンを行いたい場合、`Logon Retry'チェック・ボックスをチェックしてくささい。
+            また、再実行の回数も設定出来ます。
+            <p>
+
+            <li type=a>
+            大文字を小文字に変換する機能
+            <br>
+            アップロード、コピー時にファイル名の大文字を小文字に変換する必要がある場合、`Change UPPER to lower'チェック・ボックスをチェックしてください。
+            <p>
+
+            <li type=a>
+            アップロード、コピーするファイルの選択
+            <br>
+            アップロード、コピーするファイルの一覧を表示するには、`Upload File Check'チェック・ボックスをチェックします。
+            `Run'ボタンを押した後、`Upload File Check'ウィンドウが開きます。
+            ここで、アップロード、コピーしないファイルを選択することが出来ます。
+            <p>
+
+            <li type=a>
+            アップロード、コピーのステイタスを記憶する
+            <br>
+            上記、`Upload File Check'ウィンドウで無効にしたファイルを次回以降も無効にすることができます。
+            この機能を使用する場合は`Remember Upload Status'チェック・ボックスをチェックしてください。
+            <p>
+
+            <font color="red">
+            【注意】
+            この機能は`Upload File Check'機能が有効の時のみ使用することができます。
+            </font>
+            <p>
+
+            <li type=a>
+            アップロードを失敗したファイルを次回再度アップロードする
+            <br>
+            何等かの原因(電話回線品質の問題等)でアップロードに失敗したファイルを次回アップロード時に再度アップロードすることができます。
+            この機能を使用する場合は`Retry Failed File'チェック・ボックスをチェックしてください。
+            <p>
+
+            <li type=a>
+            ファイル拡張子でアップロード、コピーしないファイルの設定
+            <br>
+            アップロード、コピーしないファイルの拡張子を指定することができます。
+            <br>
+            この機能を使用する場合は、`Ignore File Extension'チェック・ボックスをチェックしてください。
+            また、必要な拡張子を追加してください。
+            <p>
+
+            <li type=a>
+            必ずアップロードするファイルの設定(都度設定)
+            <br>
+            前回のアップロード時から変更されておらず、今回のアップロード対象とならないファイルをアップロードする場合、
+            `Run'ボタンを押す前に、`Run After Compulsory Upload Files'チェック・ボックスをチェックしてください。
+            <p>
+
+            <font color="red">
+            【注意】
+            この機能は`Sequential Run Mode'が有効時には`Selected Site Only'モードでのみ利用可能です。
+            </font>
+            <p>
+
+            <li type=a>
+            常にアップロードするファイルの指定
+            <br>
+            メイン・ウィンドウに表示されている`Set Always Upload Files'ボタンを押すと、`Set Always Upload Files'のウィンドウが開きます。
+            ここで、常にアップロードするファイルを指定する事ができます。
+            また、アップロードする感覚を1時間毎に設定出来ます。
+            <p>
+
+            <li type=a>
+            アップロード、コピー対象外ファイルの指定
+            <br>
+            メイン・ウィンドウに表示されている`Set Excluded Files'ボタンを押すと、`Set Excluded Files'のウィンドウが開きます。
+            ここで、アップロードまたはコピーの対象としないファイル、ディレクトリを指定できます。
+        </ol>
+        <p>
+
+        <li>
+        ファイル転送モードの選択 (FTPモード)
+        <p>
+        <ul>
+            <li type=disc>
+            ファイル転送するモードをASCII/Binary/Autoから選択します。
+            <p>
+
+            <li type=disc>
+            ファイル転送モードを`Auto'に設定すると、ASCII Listに登録された拡張子を持つファイルはASCII Modeで、
+            それ以外のファイルはBinaryモードでアップロードされます。
+        </ul>
+        <p>
+
+        <li>
+        アップロード・ファイルのステイタスの表示
+        <p>
+        <ul>
+            <li type=disc>
+            ファイル毎の転送モードの表示(FTPモード)
+            <br>
+            アップロードしたファイル毎の転送モード(ASCII/Binary)を表示することができます。
+            この機能を使用する場合は、`Transfer Mode'チェック・ボックスをチェックしてください。
+            <p>
+
+            <li type=disc>
+            ファイル毎のサイズの表示
+            <br>
+            アップロードしたファイル毎のサイズを表示することができます。
+            この機能を使用する場合は、`File Size'チェック・ボックスをチェックしてください。
+            <p>
+
+            <li type=disc>
+            アップロード、コピーの結果の表示
+            <br>
+            アップロード、コピーの結果を表示することができます。
+            この機能を使用する場合は、`Upload Summary'チェック・ボックスをチェックしてください。
+        </ul>
+        <p>
+
+        <li>
+        登録サイトを連続して実行する
+        <p>
+        <ul>
+            <li type=disc>
+            登録されたサイトを連続してアップロード、コピーすることができます。
+            <p>
+
+            <li type=disc>
+            連続実行中はサウンド機能を無効にする場合、`Disable Sound During Sequential Running'チェック・ボックスをチェックしてください。
+        </ul>
+        <p>
+
+        <li>
+        実行中のアップロード、コピーのキャンセル
+        <p>
+        <ul>
+            <li type=disc>
+            アップロード、コピーの実行中にキャンセルするには、`Cancel'ボタンを押してください。
+            <br>
+            `Cancel'ボタンは`Run'ボタンを押すと表示されます。
+        </ul>
+        <p>
+
+        <li>
+        アップロード、コピー終了後に外部のプログラムを実行する
+        <p>
+        <ul>
+            <li type=disc>
+            アップロード、コピー終了後に外部のプログラムを実行する場合に設定します。
+            <br>
+            実行するプログラム名は各サイト毎に設定します。
+        </ul>
+        <p>
+
+        <li>
+        サウンド機能
+        <p>
+        <ul>
+            <li type=disc>
+            各イベント終了毎に任意のWAVファイルを鳴らす事ができます。
+            <br>
+            各サウンドの割り当ては`Setup'ボタンを押して設定してください。
+        </ul>
+        <p>
+
+        <li>
+        マルチ・リンガル化
+        <p>
+        <ul>
+            <li type=disc>
+            画面に表示されるテキストを日本語(または他国語)に変更することができます。
+            詳細はサンプルのLanguage File,
+            <a href="english.lng">english.lng</a>
+            を参照してください。
+            また、いつでも初期値に戻すことができます(Jasmineの再起動が必要)。
+            <br>
+            <font color="red">
+            【注意】
+            Language FileはJasmineと同じディレクトリになければいけません。
+            また、パラメータの追加・削除はしないでください。
+            </font>
+            <p>
+
+            <li type=disc>
+            添付されているLanguage File
+            <p>
+
+            <ol>
+                <li type=a>
+                <a href="english.lng">english.lng</a> : 英語版 (Sample)
+                <li type=a>
+                <a href="japanese.lng">japanese.lng</a> : 日本語版
+                <li type=a>
+                <a href="deutsch.lng">deutsch.lng</a> : ドイツ語版
+                <li type=a>
+                <a href="portuguese.lng">portuguese.lng</a> : ポルトガル語版
+                <li type=a>
+                <a href="french.lng">french.lng</a> : フランス語版
+            </ol>
+        </ul>
+    </ul>
+    <p>
+
+
+    <li type=disc>
+    HTMLキーワードの変換 (FTPモード)
+    <p>
+    <ul>
+        <li type=circle>
+        アップロード時にHTMLファイルに記述されている%で囲まれたキーワード(下記表参照)を実データに変換する場合、`HTML Keyword Exchange'チェック・ボックスをチェックしてください。
+        <p>
+
+        <ol>
+            <table>
+                <tr>
+                    <td>アップロードした年</td>
+                    <td>:</td>
+                    <td>%JSM_UPLOAD_YEAR%</td>
+                </tr><tr>
+                    <td>アップロードした日</td>
+                    <td>:</td>
+                    <td>%JSM_UPLOAD_DATE%</td>
+                </tr><tr>
+                    <td>アップロードした時間</td>
+                    <td>:</td>
+                    <td>%JSM_UPLOAD_TIME%</td>
+                </tr><tr>
+                    <td>ローカル・ファイルの最終更新年</td>
+                    <td>:</td>
+                    <td>%JSM_UPDATE_YEAR%</td>
+                </tr><tr>
+                    <td>ローカル・ファイルの最終更新日</td>
+                    <td>:</td>
+                    <td>%JSM_UPDATE_DATE%</td>
+                </tr><tr>
+                    <td>ローカル・ファイルの最終更新時間</td>
+                    <td>:</td>
+                    <td>%JSM_UPDATE_TIME%</td>
+                </tr><tr>
+                    <td>オリジナル・ファイルのサイズ</td>
+                    <td>:</td>
+                    <td>%JSM_FILE_SIZE%</td>
+                </tr><tr>
+                    <td>指定したファイルの最終変更日</td>
+                    <td>:</td>
+                    <td>%JSM_UPDATE_DATE=<i>file_name</i>%</td>
+                </tr><tr>
+                    <td>指定したファイルの最終変更時間</td>
+                    <td>:</td>
+                    <td>%JSM_UPDATE_TIME=<i>file_name</i>%</td>
+                </tr><tr>
+                    <td>指定したファイルのサイズ</td>
+                    <td>:</td>
+                    <td>%JSM_FILE_SIZE=<i>file_name</i>%</td>
+                </tr>
+            </table>
+            <font color="slategray"><i>
+            file_name = 絶対パスまたは相対パスで指定したファイル名
+            </i></font>
+            <p>
+
+            <table>
+                <tr>
+                    <td nowrap valign="top">
+                        指定した複数ファイルの最終
+                        <br>
+                        更新日/時間を表示
+                    </td>
+                    <td valign="top">:</td>
+                    <td valign="top" nowrap>
+                        %JSM_LATEST=<i>fn_1, fn_2, ..., fn_n:TYPE</i>%
+                    </td>
+                </tr>
+            </table>
+            <font color="slategray"><i>
+            fn_x = 絶対パスまたは相対パスで指定したファイル名(複数指定可)
+            <br>
+            TYPE = DATE, TIME, DATETIME, ALL, BOTH (DATETYPE=ALL=BOTH=null)
+            </i></font>
+            <p>
+
+            上記キーワードの`%'の前後にコメント・タグ(`&lt;!--'と`--&gt;')を付記することが出来ます。
+            これにより、ローカル・ファイルでホームページを表示する際、長いキーワードの代わりに`%%'が表示される様になり、デザインを壊すこと無くホームページを表示出来るようになります。
+            <br>
+            コメント・タグの付記方法は下記の例を参照にしてください。
+            <p>
+            <ul>
+                <table cellspacing=3 cellpadding=3 border=0>
+                    <tr>
+                        <td align="center" bgcolor="silver">
+                            通常のキーワード
+                        </td>
+                        <td align="center" bgcolor="silver">
+                            コメント・タグを付記したキーワード
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            %JSM_UPLOAD_DATE%
+                        </td>
+                        <td>
+                            %<font color="red">&lt;!--</font>JSM_UPLOAD_DATE<font color="red">--&gt;</font>%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            %JSM_UPDATE_DATE=<i>file_name</i>%
+                        </td>
+                        <td>
+                            %<font color="red">&lt;!--</font>JSM_UPDATE_DATE=<i>file_name</i><font color="red">--&gt;</font>%
+                        </td>
+                    </tr>
+                </table>
+            </ul>
+        </ol>
+        <p>
+
+        <li type=circle>
+        `Date Separator'パラメータ
+        <br>
+        日付区切り文字をSlash(/)またはDot(.)のいずれかに設定出来ます。
+        <p>
+
+        <li type=circle>
+        `Month Indication'パラメータ
+        <br>
+        月の表記方法を数字(01,02...12)またはアルファベット(Jan,Feb...Dec)のいずれかに設定出来ます。
+    </ul>
+    <p>
+
+
+    <li type=disc>
+    `Takeout'機能
+    <p>
+    <ul>
+        <li type=circle>
+        Takeout機能を使用してJasmineがアップロード、コピーしたファイルを削除することができます。
+        <p>
+
+        <li type=circle>
+        Takeout機能を使用するにはまずPreferenceの`Takeout'チェック・ボックスをチェックし、Takeout機能を有効にしてください。
+        Tankeout機能が有効になると`Takeout'ボタンがメイン・ウィンドウに表示されます。
+        <p>
+
+        <li type=circle>
+        Takeout機能が有効の場合、Takeout対象ファイルはアップロード、コピーが行われる毎にアップデートされます。
+        <p>
+
+        <li type=circle>
+        最初のTakeout実行時にログ・ファイルを検索し、Takeoutデータ・ファイルを作成します。
+        ログ･ファイルの容量によってはしばらく時間がかかる場合があります。
+        <p>
+
+        <li type=circle>
+        使用方法
+        <p>
+        <ol>
+            <li type=1>
+            `Takeout'ボタンを押すと`Jasmine Takeout'ウィンドウが表示されます。
+            <p>
+
+            <li type=1>
+            `Jasmine Takeout'ウィンドウの上部リスト・ボックスにTakeout対象ファイルの一覧が表示されます(下部リスト･ボックスにはTakeoutの状況が表示されます)。
+            <p>
+
+            <li type=1>
+            Takeoutするファイルを選択します(複数選択する場合はCtrlキーを押しながら選択してください)。
+            <p>
+
+            <li type=1>
+            `Takeout!'ボタンを押すとログオンが開始され(FTPモードの時)、順次ファイルの削除を行って行きます。
+            <p>
+
+            <li type=1>
+            削除されたファイルはTakeout対象ファイル一覧からも削除されます。
+        </ol>
+        <p>
+
+        <font color="lightseagreen">
+        NOTE:
+        </font>
+        <ul>
+            <li type=disc>
+            相手側にないファイルを削除しようとした場合、ステイタス表示にはFailと表示されます。
+        </ul>
+        <p>
+
+        <li type=circle>
+        その他のTakeout機能
+        <p>
+
+        <ol>
+            <li type=a>
+            Takeout対象ファイルから任意のファイルを削除。
+            <p>
+
+            <ol>
+                <li type=1>
+                Takeout対象ファイルから外したいファイルを選択します(複数選択する場合はCtrlキーを押しながら選択してください)。
+                <p>
+
+                <li type=1>
+                `Clear Takeout Data'ボタンを押すと、Takeout対象ファイルから選択されたファイルが削除されます。
+            </ol>
+            <p>
+
+            <li type=a>
+            Takeout対象ファイルから現在ローカル・ディレクトリにないファイルだけを選択する。
+            <p>
+
+            <ul>
+                <li type=disc>
+                `Select Files NOT Available at Local/Source Directory'ボタンを押すと検索を始めます。
+                <p>
+
+                <li type=disc>
+                検索が終了するとすでにローカル・ディレクトリにないファイルだけが選択された状態で表示されます。
+            </ul>
+            <p>
+
+            <li type=a>
+            Takeout対象ファイルを再構築する。
+            <p>
+
+            <ul>
+                <li type=disc>
+                `Create Takeout Data'ボタンを押してください。
+                再度ログ・ファイルの検索を行い、Takeout対象ファイルを再構築を行います。
+            </ul>
+        </ol>
+    </ul>
+    <p>
+
+
+    <li type=disc>
+    タイマー機能
+    <p>
+    <ul>
+        <li type=circle>
+        実行モード
+        <p>
+        <ol>
+            <li type=a>
+            Run Regularly
+            <br>
+            Jasmine起動時から、指定された経過時間毎に設定したサイトのアップロード、コピーを行います。
+            <p>
+
+            <li type=a>
+            Run Fixed Time
+            <br>
+            指定した時間に設定したサイトのアップロード、コピーを行います。
+        </ol>
+        <p>
+
+        <li type=circle>
+        Timer Runの機能
+        <p>
+        <ul>
+            <li type=disc>
+            OS/2の起動時にJasmineを自動で実行させる
+            <br>
+            OS/2の始動フォルダにJasmineのオブジェクトを作成することが出来ます。
+            これにより、OS/2起動時にJasmineを自動で実行させることが出来ます。
+            JasmineのオブジェクトをOS/2の始動フォルダに作成するには、`Create Object at Startup Folder'チェック・ボックスをチェックしてください。
+            <p>
+
+            <li type=disc>
+            最小化で実行
+            Minimized Startup
+            <br>
+            Jasmineを起動時に最小化するには、`Minimized Startup'チェック・ボックスをチェックしてください。
+            <p>
+
+            <li type=disc>
+            経過時間を表示する
+            <br>
+            Jasmine起動時からの経過時間を表示するには、`Show Timer Run'チェック・ボックスをチェックしてください。
+            経過時間はメイン・ウィンドウに表示されます。
+            <p>
+
+            <li type=disc>
+            Jasmine起動時にサイトのアップロード、コピーを実行する。(`Run Regularly'モードのみ)
+            <br>
+            Jasmine起動時にサイトのアップロード、コピーを実行するには`Run at Startup' check boxをチェックしてください。
+            この機能は、`Run Regularly'モードのみ有効です。
+        </ul>
+    </ul>
+</ul>
+<p>
+
+
+<div class="item">
+動作確認
+</div>
+<ul>
+    OS/2 Warp 4 (RexxFTPがインストールされていること)
+</ul>
+<p>
+
+
+<div class="item">
+転載・再配布の条件
+</div>
+<ul>
+    転載・再配布は基本的に自由ですが、事前に作者に許可を取ってください。
+    また、転載、再配布の際にはオリジナルの配布形態を改変しないでください。
+</ul>
+<p>
+
+
+<div class="item">
+使用上の注意
+</div>
+<ul>
+    <font color="red">
+    作者はこのソフトの使用によって生じたいかなる損害にもその責任を負いません。
+    また一切保証は致しません。予めご了承願います。
+    </font>
+</ul>
+<p>
+
+
+<div class="item">
+著作権
+</div>
+<ul>
+    このソフトウェアの著作権は作者にあります。
+</ul>
+<p>
+
+
+<div class="item">
+ご意見・ご感想・バグ・レポート
+</div>
+<ul>
+    ご意見・ご感想・バグレポートは
+    <a href="mailto:prettypop@sakura.email.ne.jp">
+    prettypop@sakura.email.ne.jp
+    </a>
+    までお願いします。
+</ul>
+<p>
+
+
+<div class="item">
+PrettyPop Homegape
+</div>
+<ul>
+    最新のFileと情報はすべて
+    <a href="http://www.prettypop.net/">
+    PrettyPop.net</a>
+    にあります。
+</ul>
+<p>
+
+
+<div class="item">
+Thanks to...
+</div>
+<ul>
+    <table>
+        <tr>
+            <td colspan=3>
+                Special thanks to...
+            </td>
+        </tr>
+        <tr>
+            <td nowrap>
+                <a href="http://y7.net/u/ri.html" target=_blank>
+                Tetsuya Suto
+                </a>
+            </td>
+            <td>:</td>
+            <td nowrap>
+                Japanese & English Readme
+            </td>
+        </tr>
+        <tr>
+            <td nowrap>
+                <a href="mailto:Lueko.Willms@t-online.de" target=_blank>
+                Lueko Willms</a>
+                /
+                <a href="http://homepages.fbmev.de/bm612973/" target=_blank>
+                Robert B&ouml;ck</a>
+                /
+                <a href="http://home.snafu.de/ohei/" target=_blank>
+                Oliver Heidelbach</a>
+            </td>
+            <td>:</td>
+            <td nowrap>
+                `Deutsch/German' Language File
+            </td>
+        </tr>
+        <tr>
+            <td nowrap>
+                <a href="mailto:pinho@myself.com">
+                Ricardo Costa Pinho
+                </a>
+            </td>
+            <td>:</td>
+            <td nowrap>
+                `Portuguese' Language File
+            </td>
+        </tr>
+        <tr>
+            <td nowrap>
+                <a href="mailto:tdd0002@attglobal.net">
+                Thierry LEFEVRE
+                </a>
+                /
+                S&eacute;bastien Morand
+            </td>
+            <td>:</td>
+            <td nowrap>
+                `French' Language File
+            </td>
+        </tr>
+    </table>
+</ul>
+</ul>
+<p>
+
+
+<div class="item">
+History
+</div>
+<ul>
+    <b>Version 1.00</b> (11.Nov.1997)
+    <ol>
+        <li type=a>
+        This is first version.
+    </ol>
+    <p>
+
+    <b>Version 1.10</b> (25.Nov.1997)
+    <ol>
+        <li type=a>
+        サウンド機能の追加。
+        <li type=a>
+        フォントを変更できるように機能追加。
+        <li type=a>
+        その他不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 1.11</b> (07.Dec.1997)
+    <ol>
+        <li type=a>
+        `Logon Retry'機能の追加。
+    </ol>
+    <p>
+
+    <b>Version 1.50</b> (16.May.1998)
+    <ol>
+        <li type=a>
+        `Change UPPER To lower'機能の追加。
+        <li type=a>
+        `Exit Command'機能の追加。
+        <li type=a>
+        `Ignore File Extension'機能の追加。
+        <li type=a>
+        `Show Upload Summary'機能の追加。
+        <li type=a>
+        `Auto Transfer Mode'機能の追加。
+        <li type=a>
+        `Cancel Upload'機能の追加。
+        <li type=a>
+        その他、仕様変更や不具合の修正。
+        <li type=a>
+        シェアウェアになりました。
+    </ol>
+    <p>
+
+    <b>Version 2.00</b> (31.May.1998)
+    <ol>
+        <li type=a>
+        `Takeout'機能の追加。
+        <li type=a>
+        その他、仕様変更や不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 2.01</b> (02.Jun.1998)
+    <ol>
+        <li type=a>
+        FTPサイトを削除・追加した時にTakeoutデータが同期しない不具合を修正。
+        <li type=a>
+        その他、不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 2.50</b> (05.Sep.1998)
+    <ol>
+        <li type=a>
+        `Ignore File Extension List/ASCII Mode List'の有効/無効時の表示色を調整。
+        <li type=a>
+        `Ignore File Check'のタイミングをファイル検索時に変更。若干の速度向上あり。
+        <li type=a>
+        `Ignore File List'表示の仕様を変更。
+        <li type=a>
+        Ignore Fileが無い時の不具合を修正。
+        <li type=a>
+        Ignore FileとASCII Extension設定時にNULLは登録しないように修正。
+        <li type=a>
+        INIファイルを読み込み時にIgnore FileとASCII ExtensionのNULLを無視するように修正。
+        <li type=a>
+        Ignore File ListとASCII Mode Listの設定時に接頭語に`*.'が無くても自動的に添付するように仕様変更。
+        <li type=a>
+        ローカル・ディスク間でのアップデート・ファイルのコピー機能を追加(含Takeout機能)。
+        <li type=a>
+        `Show Ignored File List'モードの追加。
+        <li type=a>
+        ステイタスの表示を静かにするモード(Silent Status Indication)を追加。
+        <li type=a>
+        サマリーのトータル・ファイル数が正しく表示されない問題を修正。
+        <li type=a>
+        Takeoutウィンドウでフォントが正しく反映されない不具合の修正。
+        <li type=a>
+        Takeoutのサマリーを表示するように仕様変更。
+        <li type=a>
+        登録名に"("があるとCreate Takeoutデータが正しく機能しない問題を修正。
+        <li type=a>
+        サイト登録の際、入力されたLocal(Source)/Remote(Destination)ディレクトリのチェックをする機能を追加。
+        <li type=a>
+        `Open Local Folder'機能の追加。
+        <li type=a>
+        その他、仕様変更や不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 2.51</b> (07.Sep.1998)
+    <ol>
+        <li type=a>
+        新規サイトのSource/Destination名にNULLがあると正しく登録されない問題を修正(COPYモード)。
+        <li type=a>
+        その他、仕様変更や不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 2.55</b> (01.Oct.1998)
+    <ol>
+        <li type=a>
+        `Upload File Check'機能の仕様変更。
+        <li type=a>
+        その他、仕様変更や不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 2.60</b> (27.Oct.1998)
+    <ol>
+        <li type=a>
+        `Sequential Run Mode'の追加。
+        <li type=a>
+        サイトを削除する際に確認するウィンドウを表示するように仕様変更。
+    </ol>
+    <p>
+
+    <b>Version 2.70</b> (03.Jan.1998)
+    <ol>
+        <li type=a>
+        サイト名変更時にTakeoutデータの管理名称が変更されない不具合を修正。
+        <li type=a>
+        マルチ・リンガル機能を追加。
+        <li type=a>
+        ビットマップ・リソースの一部変更。
+        <li type=a>
+        その他、仕様変更や不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 2.71</b> (03.Jan.1998)
+    <ol>
+        <li type=a>
+        サイト名変更後、Takeoutデータを再構成したときに生じる問題の修正。
+        <li type=a>
+        新規サイト登録時に落ちる問題を修正。
+    </ol>
+    <p>
+
+    <b>Version 2.72</b> (07.Apr.1998)
+    <ol>
+        <li type=a>
+        Remote DirectoryにChange Directoryするときに生じる問題の修正。
+        <li type=a>
+        その他、仕様変更や不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 2.80</b> (08.May.1998)
+    <ol>
+        <li type=a>
+        `Retry Failed File at Next Time'機能の追加。
+        <li type=a>
+        `Remember Upload Status'機能の追加。
+        <li type=a>
+        `Disable Sound During Sequential Running'機能の追加。
+        <li type=a>
+        その他、仕様変更や不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 2.85</b> (21.Jun.1998)
+    <ol>
+        <li type=a>
+        強制アップロード機能の追加。
+        <li type=a>
+        新しくサイトを登録する時に生じる不具合を修正。
+        <li type=a>
+        その他、仕様変更や不具合の修正。
+     </ol>
+    <p>
+
+    <b>Version 2.86</b> (04.Jan.2000)
+    <ol>
+        <li type=a>
+        一部のGUIと初期設定値の修正。
+    </ol>
+    <p>
+
+    <b>Version 2.90</b> (01.May.2000)
+    <ol>
+        <li type=a>
+        `Show Selected Status Window's Text at Context Menu'機能の追加。
+        <li type=a>
+        `Select Files NOT Available at Local/Source Directory'機能の追加。
+        <li type=a>
+        その他、不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 3.00</b> (16.Sep.2000)
+    <ol>
+        <li type=a>
+        `Log Viewer'の追加。
+        <li type=a>
+        ログ・ファイル名の仕様変更。
+        <li type=a>
+        `Language Support'の強化。
+        <li type=a>
+        ドイツ語版Language File (deutsch.lng)の同梱。
+        <li type=a>
+        その他、不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 3.00a</b> (21.Sep.2000)
+    <ol>
+        <li type=a>
+        ポルトガル語版Language File (portuguese.lng)の同梱。
+    </ol>
+    <p>
+
+    <b>Version 3.10</b> (04.Feb.2001)
+    <ol>
+        <li type=a>
+        `HTML Key Exchange'機能の追加。
+        <li type=a>
+        ログ・ファイル消去時の不具合の修正。
+        <li type=a>
+        その他、仕様変更や不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 3.20</b> (19.Jun.2001)
+    <ol>
+        <li type=a>
+       `Set Excluded Files'機能の追加。
+        <li type=a>
+       `Always Upload Files'機能の追加。
+        <li type=a>
+       `HTML Keyword Exchange'機能の拡張。
+        <li type=a>
+       `Enhanced HTML Keyword Exchange'機能の追加。
+    </ol>
+    <p>
+
+    <b>Version 3.30</b> (16.Feb.2002)
+    <ol>
+        <li type=a>
+        Ftpアップロードの年/最終更新年のキーワードを`HTML Keyword Exchange'機能に追加。
+        <li type=a>
+        複数ファイルの最終更新日/時間のキーワードを`HTML Keyword Exchange'機能に追加。
+        <li type=a>
+        `Change UPPER to lower'機能が有効になっているとき生じる`Takeout'機能の不具合を修正。
+        <li type=a>
+        アップロード失敗時に`Failed File List'を表示する機能を追加。
+        <li type=a>
+        その他、仕様変更や不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 3.31</b> (15.Sep.2002)
+    <ol>
+        <li type=a>
+        `HTML Keyword Exchange'機能のキーワードにコメント・タグが使用できるように機能追加。
+        <li type=a>
+        フランス語版Language File (french.lng)の同梱。
+    </ol>
+    <p>
+
+    <b>Version 4.00</b> (12.Sep.2004)
+    <ol>
+        <li type=a>
+        `Timer Run'機能の追加。
+        <li type=a>
+        `Language File'機能でコンテキスト・メニューをサポートするように仕様変更。
+        <li type=a>
+        相対パスを設定時の'Enhanced HTML Keyword Exchange'機能の不具合を修正。
+        <li type=a>
+        `Check File'と`Select Compulsory Upload Files'ウィンドウのキャンセルボタンの仕様を変更。
+        <li type=a>
+        COPYモードのファイル選択の仕様を変更。
+        <li type=a>
+        その他、仕様変更や不具合の修正。
+        <li type=a>
+        Freewareになりました。
+    </ol>
+</ul>
+
+<font color="snow">
+
+</body>
+</html>
+

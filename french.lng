@@ -1,0 +1,256 @@
+;
+; Jasmine - Language File : French
+;
+; NOTE : This file can be used by Jasmine version 4.01 beta 3 or higher.
+;
+; Translation into French
+;         by Thierry LEFEVRE <tdd0002@attglobal.net>
+;    - Worked over and completed
+;         23.Feb.2003 by SÈbastien Morand
+;         27.Jul.2003 by SÈbastien Morand
+;
+;
+;
+;
+LANGUAGE=French
+
+#MW_Jasmine
+DT_LocalDir=RÇp.local,Source
+DT_RemoteDir=RÇp.distant,Destination
+DT_FtpSite=Nom du site
+PB_Run=ExÇcuter
+PB_Exit=Quitter
+CM_ExitJasmine=Quitter
+CM_MinimizeJasmine=RÂÑuire
+DT_Address=Adresse
+DT_UserID=Utilisateur
+GB_Last_Upload_Date_and_Time=PrÇcÇdent chargement date et heure
+DT_Year=AnnÇe
+DT_Month=Mois
+DT_Day=Jour
+PB_ResetLastYear=RAZ
+PB_ResetLastMonth=RAZ
+PB_ResetLastDay=RAZ
+PB_ResetLastTime=RAZ
+DT_Hour=Heure
+DT_Min=Min
+PB_NewSite=CrÇer
+PB_DeleteSite=Suppr.
+DT_Account=Compte
+PB_EditSite=Modif.
+DT_CloseCommand=Cmd fermeture
+GB_Log=Logging
+RB_Log_Daily=Quotid.
+RB_Log_Monthly=Mensuel
+CB_Log=Logging
+PB_ViewLogFile=Voir fichier log
+PB_Preferences=PrÇfÇrences
+GB_TimerRun=Horloge lancÂÖ
+PB_TimerRun_Setup=Inst.son
+GB_Sound=Son
+PB_SetSound=Inst.son
+PB_Takeout=Exclure
+DT_Mode=Mode
+PB_OpenLocalFolder=Ouvrir
+PB_OpenRemoteFolder=Ouvrir
+DT_RunMode=Mode d'exÇc.
+CB_CompulsoryUploadFile=Avant d'exÇcuter, choisir fichiers Ö charger obligatoires
+PB_SetAlwaysUploadFiles=Choix de fichiers Ö charger toujours
+PB_SetExcludedFiles=Choix de fichiers Ö exclure
+
+#SW_CheckFile
+SW_CheckFile=Jasmine - Chargement liste de fichiers
+PB_Upload_OK=OK
+PB_Upload_Cancel=Annuler
+PB_ChangeUploadStatus=Changer statut des fichiers sÇlectionnÇs
+CM_UFL_CancelSelect=Annuler sÂåection
+CM_UFL_CancelAll=Annuler tout
+
+#SW_NewSiteName
+SW_NewSiteName=Jasmine - Entrer/Modifier donnÇes du site
+DT_NewSiteName=Nom du site
+PB_NewSite_OK=OK
+PB_NewSite_Cancel=Annuler
+DT_NewAddress=Adresse
+DT_NewUserID=User ID
+DT_NewPassword=Mot de passe
+DT_NewAccount=Compte
+DT_NewLocalDir=RÇp.local
+DT_NewRemoteDir=RÇp.distant
+PB_NewSite_Clear=Effacer
+DT_NewCloseCommand=Cmd de fermeture
+RB_NewMode_FTP=FTP
+RB_NewMode_Copy=Copier
+DT_NewSiteMode=Mode
+PB_SetCloseCommand=Set
+
+#SW_SetSound
+SW_SetSound=Jasmine - Mettre le son
+CB_Sound_Start=DÇmarrer
+CB_Sound_No_File=Pas de fichier trouvÇ
+CB_Sound_Logon_Successfully=Logon rÇussi
+CB_Sound_Logon_Failed=Logon ratÇ
+CB_Sound_Save_Log=Sauve fichier Log
+CB_Sound_End=Fin
+PB_Sound_OK=OK
+PB_Sound_Cancel=Annuler
+DT_SoundDirectory=RÇp. son
+PB_DefaultSoundSet=DÇfaut
+DT_SoundVolume=Volume
+
+#SW_Preference
+SW_Preference=Jasmine - PrÇfÇrences
+GB_Upload_Option=Option de chargement
+CB_ManageUploadFiles=GÇrer fichiers Ö charger
+CB_UploadFileCheck=Contrìle fichiers Ö charger
+CB_RememberUploadStatus=MÇmoriser statut
+PB_ClearUploadStatusFile=Effacer fichier de donnÇes
+CB_RetryFailedFile=Fichier des rÇ-essais ratÇs
+PB_ViewFailedFile=Voir fichier de donnÇes
+CB_ChangeUpperToLower=Modifier MAJ.->min.
+CB_LogonRetry=RÇ-essai de Logon
+CB_IgnoreFileExtension=Ext. de fichiers Ö ignorer
+CB_AutoTakeout=Auto Takeout
+PB_AddIgnoreFileExtension=Ajouter
+PB_DeleteIgnoreFileExtension=Supprimer
+PB_ClearIgnoreFileExtension=Effacer
+CB_ShowIgnoredFileList=Voir liste fichiers ignorÇs
+GB_Transfer_Mode=Mode de transfert (FTP)
+RB_Upload_ASCII=ASCII
+RB_Upload_Binary=Binaire
+RB_Upload_Auto=Auto (Binaire par defaut)
+PB_AddAsciiExtension=Add
+PB_DeleteAsciiExtension=Delete
+PB_ClearAsciiExtension=Clear
+DT_ASCII_Mode_List=Mode ASCII
+PB_OpenRegistry=Registres, Ö propos de Jasmine
+PB_ExitPreference=Retour
+GB_CloseCommand=Cmd de fermeture
+CB_CloseCommand=Cmd de fermeture
+GB_Upload_File_Status=Statut fichier Ö charger
+CB_StatusTransferMode=Mode de transfert
+CB_StatusFileSize=Taille fichier
+CB_StatusUploadSummary=RÇsumÇ chargement
+CB_SilentStatusIndication=Indic.statut silencieux
+GB_Font=Police
+PB_SetWindowFont=Police
+DT_WindowFont=Police fenàtre
+DT_StatusFont=Police statut
+PB_SetStatusFont=Police
+GB_Takeout=Retirer
+CB_Takeout=Retirer
+GB_SequencialRunMode=Mode d'exÇcution sÇquentiel
+CB_SequentialRunMode=Mode d'exÇcution sÇquentiel
+DT_Default=Defaut
+CB_DisableSoundDuringSequentialRunning=DÇsactiver le son
+GB_SetLanguage=Langue
+RB_Language_Default=Defaut (RedÇmarrage nÇc.)
+RB_Language_Custom=Au choix
+GB_HTML_Keyword_Exchange_Function=Echange de mots-clÇs HTML (FTP)
+CB_HtmlKeywordExchange=Echange de mots-clÇs HTML
+GB_HKE_FileSize=Taille fichier
+RB_HKE_FileSize_Bit=Bit
+RB_HKE_FileSize_Byte=Car.
+RB_HKE_FileSize_KByte=Ko
+GB_HKE_DateStyle=Date Style
+RB_HKE_DateStyle_yyyymmdd=aaaa/mm/jj
+RB_HKE_DateStyle_ddmmyyyy=jj/mm/aaaa
+RB_HKE_DateStyle_mmddyyyy=mm/jj/aaaa
+GB_HKE_DateSeparator=Separateur
+RB_HKE_DateSeparator_Slash=Barre de fr. [/]
+RB_HKE_DateSeparator_Dot=Point [.]
+GB_HKE_MonthIndication=Indication mois
+RB_HKE_DateMonthIndication_Number=Nombre (01,02...12)
+RB_HKE_DateMonthIndication_Alphabet=Alphabet (Jan, FÇv...DÇc)
+;GB_CopyOption=Option de copie (COPY)
+;CB_CopyWhenNoTarget=Copie quand il n'y a pas de cible
+
+#SW_Registry
+
+#SW_Takeout
+SW_Takeout=Jasmine - Retrait
+PB_SelectFilesNotAvailableAtLocalDirectory=Selectionner fichiers indispo. en local/RÇpertoire source
+PB_SearchLogFiles=CrÇer donnÇes de retrait
+PB_ExitTakeout=Quiter retrait
+PB_RunTakeout=Retrait!
+PB_RunTakeoutAutomatically=Auto
+DT_TakeoutSiteName=Nom du site
+PB_ClearSelectedData=Effacer donnÇes sÇlectionnÇes
+PB_OpenTakeoutLocalFolder=Ouvrir rÇp. local
+CM_CreateTakeoutData_Yes=Allons-y !
+CM_CreateTakeoutData_Cancel=Annuler
+
+#SW_AlertDeleteSite
+DT_DeleteSite=DÇtruire site
+PB_DeleteSiteYes=OK
+PB_DeleteSiteNo=Annuler
+
+#SW_SelectCompulsoryUploadFile
+SW_SelectCompulsoryUploadFile=Jasmine - Selectionner fichier Ö charger obligatoires
+PB_Set_CompulsoryUploadFile=Set
+PB_Cancel_CompulsoryUploadFile=Annuler
+CM_CUF_CancelSelect=Annuler sÂåection
+CM_CUF_CancelAll=Annuler tout
+
+#SW_LogViewer
+SW_LogViewer=Jasmine - Visionneuse de Log
+DT_LogDirectory=RÇp.
+DT_LV_LogFileName=Nom de fichier Log
+DT_LV_LogDataItems=ElÇments de donnÇes Log
+DT_LV_LogDetail=DÇtail Log
+PB_LV_ClearAllLogFiles=Effacer tous les fichiers Log
+PB_ExitLogViewer=Retour
+CM_ClearAllLogFiles_Yes=Allons-y !
+CM_ClearAllLogFiles_Cancel=Annuler
+
+#SW_SetExcludeUploadFiles
+SW_SetExcludeUploadFiles=Jasmine - Choisir fichier Ö exclure du chargement
+DT_MUF_Directory=RÇpertoire
+DT_MUF_FileName=Nom de fichier
+DT_MUF_ExcludedUploadFileList=Fichiers exclus du chargement
+PB_MUF_ExcludeSelectedDirectory=Exclure rÇpertoire choisi
+PB_MUF_Save=Sauver
+PB_MUF_Cancel=Annuler
+CM_MUF_ChangeDirectory=Changer de dossier
+CM_MUF_SetSelectedDirectory=RÂáler dossier sÂåectionn
+CM_MUF_SetSelectedFile=RÂáler fichier sÂåectionn
+CM_MUF_RemoveSelectedFile=Enlever fichier sÂåectionn
+
+#SW_SetAlwaysUploadFiles
+SW_SetAlwaysUploadFiles=Jasmine - Fichiers Ö charger toujours
+DT_AUF_Directory=RÇpertoire
+DT_AUF_FileName=Nom fichier
+DT_AUF_AlwaysUploadFiles=Fichiers Ö charger toujours
+PB_AUF_Save=Sauver
+PB_AUF_Cancel=Annuler
+DT_AUF_Once=Toutes les
+DT_AUF_Hour=heures
+CM_AUF_ChangeDirectory=Changer de dossier
+CM_AUF_SetSelectedFile=RÂáler fichier sÂåectionn
+CM_AUF_RemoveSelectedFile=Enlever fichier sÂåectionn
+
+#SW_FailedFileList
+SW_FailedFileList=Jasmine - Liste de dossier ÂÉhouÂÖ
+PB_ClearFailedData=Supprimer tout
+PB_FailedFileList_Close=Fermer
+
+#SW_TimerRun
+SW_TimerRun=Jasmine - Installer horloge
+DT_TimerRun_Text_SiteName=Nom du site
+RB_RunRegularly=Lancer rÂáuli‰ement
+DT_RunRegurary_TextEvery=Tout
+RB_RunFixedTime=Lancer temps fixe
+PB_TimerRun_Set=RÂáler nouveau
+PB_TimerRun_Change=Changer
+PB_TimerRun_Delete=Suppr.
+PB_TimerRun_Return=Retour
+CB_Create_Object_at_Startup_Folder=CrÂÖr un objet au dÂçarrage du dossier
+PB_OpenStartupFolder=Ouvrir dossier de dÂçarrage
+CB_Minimized_Startup=RÂÑuire le dÂçarrage
+CB_Show_Timer_Counter=Montrer compteur de temps
+;CB_RunAtStartup=Lancer au dÂçarrage (lancer rÂáuli‰ement uniquement)
+CB_RunAtStartup=Lancer au dÂçarrage ("lancer rÂáuli‰ement")
+CM_TR_Delete=Effacer
+CM_TR_ConfirmDelete_Yes=Allons-y !
+CM_TR_ConfirmDelete_Cancel=Annuler
+

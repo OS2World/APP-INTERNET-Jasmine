@@ -1,0 +1,36 @@
+                          Jasmine Upload Information for Hobbes.nmsu.edu
+                          ==============================================
+
+        Archive Filename: Jsm400r.zip
+       Short Description: Jasmine, Auto FTP Uploader
+        Long Description: Jasmine is the ftp front-end using of the OS/2 WARP jeniune part
+                          for FTP (File Transfer Protocol) for the maintainances of your
+                          webpages. And Jasmine can copy local files to destination directory
+                          with same functions of FTP Mode. Jasmine will put/copy the files
+                          and directories, only which are changed or altered from the last
+                          put/copy. You can also select if you want to put/copy this time
+                          such automatcically selected files and folders. You may record the
+                          logs of uploaded files by either daily or monthly, too. And you
+                          can remove remote files that uploaded/copied and managed by Jasmine.
+
+                          You need VROBJ.DLL to be installed in the any libpathed directory.
+
+      Proposed directory
+           for placement: /pub/os2/apps/internet/ftp/client/
+
+               Your name: Ken Kinoshita
+           Email address: prettypop@sakura.email.ne.jp
+    Program contact name: (same)
+   Program contact email: (same)
+             Program URL: http://www.prettypop.net/
+
+      Would you like the
+   contact email address
+    included in listings? yes
+
+Operating System/Version: Warp4
+ Additional requirements: Watcom VX-REXX Runtime (VROBJ.DLL)
+
+                Replaces: jsm331r.zip
+
+

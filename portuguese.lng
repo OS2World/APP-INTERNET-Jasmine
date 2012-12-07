@@ -1,0 +1,256 @@
+;
+; Jasmine - Language File : Portuguˆs
+;
+; NOTE : This file can be used by Jasmine version 4.01 beta 3 or higher.
+;
+; Translation into Portuguese by Ricardo Costa Pinho (ricardo@pinho.org)
+;
+;
+;
+;
+;
+;
+;
+;
+LANGUAGE=Portuguese
+
+#MW_Jasmine
+DT_LocalDir=Dir Local,Fonte
+DT_RemoteDir=Dir Remoto,Destino
+DT_FtpSite=Nome do Site
+PB_Run=Executar
+PB_Exit=Sair
+CM_ExitJasmine=Sair
+CM_MinimizeJasmine=Minimizado
+DT_Address=Endere‡o
+DT_UserID=Utilizador
+GB_Last_Upload_Date_and_Time=éltima data de envio
+DT_Year=Ano
+DT_Month=Mˆs
+DT_Day=Dia
+PB_ResetLastYear=Reset
+PB_ResetLastMonth=Reset
+PB_ResetLastDay=Reset
+PB_ResetLastTime=Reset
+DT_Hour=Hora
+DT_Min=Min
+PB_NewSite=Novo
+PB_DeleteSite=Desgravar
+DT_Account=Conta
+PB_EditSite=Editar
+DT_CloseCommand=Cmd Final
+GB_Log=Registo
+RB_Log_Daily=Di rio
+RB_Log_Monthly=Mensal
+CB_Log=Gravando
+PB_ViewLogFile=Ver registo
+PB_Preferences=Preferˆncias
+GB_TimerRun=Correr temporizador
+PB_TimerRun_Setup=Config
+GB_Sound=Som
+PB_SetSound=Config
+PB_Takeout=Retirar
+DT_Mode=Modo
+PB_OpenLocalFolder=Abrir
+PB_OpenRemoteFolder=Abrir
+DT_RunMode=Modo de execu‡Æo
+CB_CompulsoryUploadFile=Executar ap¢s envio de ficheiros compuls¢rios
+PB_SetAlwaysUploadFiles=Enviar ficheiro sempre
+PB_SetExcludedFiles=Ficheiro desactivado
+
+#SW_CheckFile
+SW_CheckFile=Lista de Ficheiros a Enviar
+PB_Upload_OK=OK
+PB_Upload_Cancel=Cancelar
+PB_ChangeUploadStatus=Mudar Estado de Ficheiro Seleccionado
+CM_UFL_CancelSelect=Cancelar Selecäƒo
+CM_UFL_CancelAll=Cancelar Tudo
+
+#SW_NewSiteName
+SW_NewSiteName=Introduzir/Editar dados do site
+DT_NewSiteName=Nome de Site
+PB_NewSite_OK=OK
+PB_NewSite_Cancel=Cancelar
+DT_NewAddress=Endere‡o
+DT_NewUserID=Utilizador
+DT_NewPassword=C¢digo
+DT_NewAccount=Conta
+DT_NewLocalDir=Dir Local
+DT_NewRemoteDir=Dir Remoto
+PB_NewSite_Clear=Limmpar
+DT_NewCloseCommand=Cmd finaliza‡Æo
+RB_NewMode_FTP=FTP
+RB_NewMode_Copy=C¢pia
+DT_NewSiteMode=Modo
+PB_SetCloseCommand=Set
+
+#SW_SetSound
+SW_SetSound=Escolher Som
+CB_Sound_Start=In¡cio
+CB_Sound_No_File=Fich nÆo encontrado
+CB_Sound_Logon_Successfully=Logon Sucedido
+CB_Sound_Logon_Failed=Logon Falhado
+CB_Sound_Save_Log=Guardar registo
+CB_Sound_End=Fim
+PB_Sound_OK=OK
+PB_Sound_Cancel=Cancelar
+DT_SoundDirectory=Dir de Som
+PB_DefaultSoundSet=Defeito
+DT_SoundVolume=Volume de Som
+
+#SW_Preference
+SW_Preference=Preferåìcias
+GB_Upload_Option=Op‡Æo de Envio
+CB_ManageUploadFiles=Gerir Ficheiros a Enviar
+CB_UploadFileCheck=Verificar Envio
+CB_RememberUploadStatus=Lembrar Estado
+PB_ClearUploadStatusFile=Limpar Dados de Ficheiros
+CB_RetryFailedFile=Repetir Fichs Falhados
+PB_ViewFailedFile=Limpar Dados de Ficheiros
+CB_ChangeUpperToLower=Mudar MAIUS para minusclas
+CB_LogonRetry=Repetir Logon
+CB_IgnoreFileExtension=Ignorar ExtensÆo de Fichs
+CB_AutoTakeout=Auto Takeout
+PB_AddIgnoreFileExtension=Adicional
+PB_DeleteIgnoreFileExtension=Desgravar
+PB_ClearIgnoreFileExtension=Limpar
+CB_ShowIgnoredFileList=Mostrar Ficheiros Ignorados
+GB_Transfer_Mode=Modo Transferˆncia (FTP)
+RB_Upload_ASCII=ASCII
+RB_Upload_Binary=Bin rio
+RB_Upload_Auto=Auto (Bin rio por defeito)
+PB_AddAsciiExtension=Adicionar
+PB_DeleteAsciiExtension=Desgravar
+PB_ClearAsciiExtension=Limpar
+DT_ASCII_Mode_List=Modo ASCII
+PB_OpenRegistry=Registo,Acerca
+PB_ExitPreference=Regressar
+GB_CloseCommand=Comando Final
+CB_CloseCommand=Comando de Finaliza‡Æo
+GB_Upload_File_Status=Estado de Envio
+CB_StatusTransferMode=Modo de Transferˆncia
+CB_StatusFileSize=Tamanho
+CB_StatusUploadSummary=Sum rio de Envio
+CB_SilentStatusIndication=Indica‡Æo Silˆnciosa
+GB_Font=Tipo de Letra
+PB_SetWindowFont=Tipo
+DT_WindowFont=Tipo de Janela
+DT_StatusFont=Tipo de Estado
+PB_SetStatusFont=Tipo
+GB_Takeout=Retirar Ficheiros
+CB_Takeout=Retirar
+GB_SequencialRunMode=Modo de Sequˆncia
+CB_SequentialRunMode=Modo de Sequˆncia
+DT_Default=Defeito
+CB_DisableSoundDuringSequentialRunning=Desactivar Som
+GB_SetLanguage=L¡ngua
+RB_Language_Default=Defeito (Rein¡cio)
+RB_Language_Custom=Pessoal
+GB_HTML_Keyword_Exchange_Function=Mudança de Variável em HTML (apenas FTP)
+CB_HtmlKeywordExchange=Mudança de Variável em HTML
+GB_HKE_FileSize=Tamanho de fich
+RB_HKE_FileSize_Bit=Bit
+RB_HKE_FileSize_Byte=Byte
+RB_HKE_FileSize_KByte=KB
+GB_HKE_DateStyle=Estilo de Data
+RB_HKE_DateStyle_yyyymmdd=yyyy/mm/dd
+RB_HKE_DateStyle_ddmmyyyy=dd/mm/yyyy
+RB_HKE_DateStyle_mmddyyyy=mm/dd/yyyy
+GB_HKE_DateSeparator=Separador
+RB_HKE_DateSeparator_Slash=Barra [/]
+RB_HKE_DateSeparator_Dot=Ponto [.]
+GB_HKE_MonthIndication=Indicaäƒo de Ms
+RB_HKE_DateMonthIndication_Number=Nmero (01,02...12)
+RB_HKE_DateMonthIndication_Alphabet=Alfabeto (Jan, Fev...Dez)
+;GB_CopyOption=Opo de cpia (COPY)
+;CB_CopyWhenNoTarget=Copiar se no existir
+
+#SW_Registry
+
+#SW_Takeout
+SW_Takeout=Retirar
+PB_SelectFilesNotAvailableAtLocalDirectory=Seleccionar ficheiros nÆo existentes no direct¢rio local/fonte
+PB_SearchLogFiles=Criar Dados Retirar
+PB_ExitTakeout=Sair de Retirar
+PB_RunTakeout=Retirar!
+PB_RunTakeoutAutomatically=Auto
+DT_TakeoutSiteName=Nome do Site
+PB_ClearSelectedData=Limpar Dados Seleccionados
+PB_OpenTakeoutLocalFolder=Abrir Pasta Local
+CM_CreateTakeoutData_Yes=Sim, continuar
+CM_CreateTakeoutData_Cancel=Cancelar
+
+#SW_AlertDeleteSite
+DT_DeleteSite=Desgravar Site
+PB_DeleteSiteYes=OK
+PB_DeleteSiteNo=Cancelar
+
+#SW_SelectCompulsoryUploadFile
+SW_SelectCompulsoryUploadFile=Escolher Fichrs de Envio Compulsê’io
+PB_Set_CompulsoryUploadFile=Seleccionar
+PB_Cancel_CompulsoryUploadFile=Cancelar
+CM_CUF_CancelSelect=Cancelar Selecäƒo
+CM_CUF_CancelAll=Cancelar Tudo
+
+#SW_LogViewer
+SW_LogViewer=Ver Registo
+DT_LogDirectory=Log Directory
+DT_LV_LogFileName=Nome de Registo
+DT_LV_LogDataItems=Items de Registo
+DT_LV_LogDetail=Registo Detalhado
+PB_LV_ClearAllLogFiles=Limpar Ficheiros de Registo
+PB_ExitLogViewer=Regressar
+CM_ClearAllLogFiles_Yes=Sim, continuar
+CM_ClearAllLogFiles_Cancel=Cancelar
+
+#SW_SetExcludeUploadFiles
+SW_SetExcludeUploadFiles=Excluir Ficheiros a Enviar
+DT_MUF_Directory=Directrio
+DT_MUF_FileName=Nome de Fich.
+DT_MUF_ExcludedUploadFileList=Desactivar envio de fich.
+PB_MUF_ExcludeSelectedDirectory=Desactivar directrio
+PB_MUF_Save=Guardar
+PB_MUF_Cancel=Cancelar
+CM_MUF_ChangeDirectory=Mudar directê’io
+CM_MUF_SetSelectedDirectory=Escolher directê’io
+CM_MUF_SetSelectedFile=Mudar ficheiro seleccionado
+CM_MUF_RemoveSelectedFile=Remover fich seleccionado
+
+#SW_SetAlwaysUploadFiles
+SW_SetAlwaysUploadFiles=Enviar Sempre os Ficheiros
+DT_AUF_Directory=Directrio
+DT_AUF_FileName=Nome de Fich.
+DT_AUF_AlwaysUploadFiles=Enviar ficheiro sempre
+PB_AUF_Save=Guardar
+PB_AUF_Cancel=Cancelar
+DT_AUF_Once=Uma vez a cada
+DT_AUF_Hour=Hora(s)
+CM_AUF_ChangeDirectory=Mudar directê’io
+CM_AUF_SetSelectedFile=Mudar fich seleccionado
+CM_AUF_RemoveSelectedFile=Remover fich seleccionado
+
+#SW_FailedFileList
+SW_FailedFileList=Jasmine - Lista fichs falhados
+PB_ClearFailedData=Limpar tudo
+PB_FailedFileList_Close=Fechar
+
+#SW_TimerRun
+SW_TimerRun=Jasmine - Config temporizador
+DT_TimerRun_Text_SiteName=Nome do Site
+RB_RunRegularly=Correr regularmente
+DT_RunRegurary_TextEvery=Cada
+RB_RunFixedTime=Correr em tempo marcado
+PB_TimerRun_Set=Escolher novo
+PB_TimerRun_Change=Modificar
+PB_TimerRun_Delete=Desgravar
+PB_TimerRun_Return=Regressar
+CB_Create_Object_at_Startup_Folder=Criar objecto na parta de arranque
+PB_OpenStartupFolder=Abrir pasta de arranque
+CB_Minimized_Startup=Inçƒio minimizado
+CB_Show_Timer_Counter=Mostrar contador
+;CB_RunAtStartup=Executar ao Iniciar (apenas em "Correr Regularmente")
+CB_RunAtStartup=Executar ao Iniciar ("Correr Regularmente")
+CM_TR_Delete=Desgravar
+CM_TR_ConfirmDelete_Yes=Sim, continuar
+CM_TR_ConfirmDelete_Cancel=Cancelar
+

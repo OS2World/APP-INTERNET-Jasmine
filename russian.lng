@@ -1,0 +1,253 @@
+;
+; Jasmine - Language File : Russian
+;
+; NOTE : This file can be used by Jasmine version 3.99 beta 21 or higher.
+;
+; Russian localization (c)2005 Michael Baryshnikov
+; Internet: brr@ok.ru
+; FIDO: 2:5020/35.323
+;
+;
+;
+;
+;
+;
+LANGUAGE=Russian
+
+#MW_Jasmine
+DT_LocalDir=Локальная,Исходящая
+DT_RemoteDir=Удаленная,Назначение
+DT_FtpSite=Имя сайта
+PB_Run=Начать
+PB_Exit=Выход
+CM_ExitJasmine=Выход
+CM_MinimizeJasmine=Свернуть
+DT_Address=Адрес
+DT_UserID=Пользователь
+GB_Last_Upload_Date_and_Time=Дата и время последней закачки
+DT_Year=Год
+DT_Month=Месяц
+DT_Day=Число
+PB_ResetLastYear=Сброс
+PB_ResetLastMonth=Сброс
+PB_ResetLastDay=Сброс
+PB_ResetLastTime=Обновить
+DT_Hour=Часы
+DT_Min=Минуты
+PB_NewSite=Новый
+PB_DeleteSite=Удалить
+DT_Account=Аккаунт
+PB_EditSite=Измен.
+DT_CloseCommand=Cmd выхода
+GB_Log=Ведение лога
+RB_Log_Daily=Ежедневный
+RB_Log_Monthly=На месяц
+CB_Log=Лог закачек
+PB_ViewLogFile=Показать лог
+PB_Preferences=Установки
+GB_TimerRun=Таймер
+PB_TimerRun_Setup=Выбор
+GB_Sound=Звуки
+PB_SetSound=Выбор
+PB_Takeout=Тейк-аут
+DT_Mode=Режим
+PB_OpenLocalFolder=Откр.
+PB_OpenRemoteFolder=Откр.
+DT_RunMode=Режим
+CB_CompulsoryUploadFile=Обязательный выбор файлов перед началом закачки
+PB_SetAlwaysUploadFiles=Выбрать файлы обязательные к закачке
+PB_SetExcludedFiles=Не закачивать данные файлы
+
+#SW_CheckFile
+SW_CheckFile=Jasmine-Список файлов закачки
+PB_Upload_OK=OK
+PB_Upload_Cancel=Сброс
+PB_ChangeUploadStatus=Изменить статус данного файла
+CM_UFL_CancelSelect=Отменить выбор
+CM_UFL_CancelAll=Отменить все
+
+#SW_NewSiteName
+SW_NewSiteName=Jasmine-Ввод и изменение данных сайта
+DT_NewSiteName=Имя сайта
+PB_NewSite_OK=OK
+PB_NewSite_Cancel=Сброс
+DT_NewAddress=Адрес
+DT_NewUserID=ID Пользователя
+DT_NewPassword=Пароль
+DT_NewAccount=Аккаунт
+DT_NewLocalDir=Локальная
+DT_NewRemoteDir=Удаленная
+PB_NewSite_Clear=Очистить
+DT_NewCloseCommand=Cmd выхода
+RB_NewMode_FTP=FTP
+RB_NewMode_Copy=Copy
+DT_NewSiteMode=Режим работы
+PB_SetCloseCommand=Найти
+
+#SW_SetSound
+SW_SetSound=Jasmine-Звуковое оформление
+CB_Sound_Start=Старт программы
+CB_Sound_No_File=Файл не найден
+CB_Sound_Logon_Successfully=Соед. успешно
+CB_Sound_Logon_Failed=Соед. НЕ успешно
+CB_Sound_Save_Log=Сохранить лог
+CB_Sound_End=Конец  работы
+PB_Sound_OK=OK
+PB_Sound_Cancel=Сброс
+DT_SoundDirectory=Звуки
+PB_DefaultSoundSet=Дефолт
+DT_SoundVolume=Громк.
+
+#SW_Preference
+SW_Preference=Jasmine-Установки программы
+GB_Upload_Option=Опции аплоуда
+CB_ManageUploadFiles=Управление файлами аплоуда
+CB_UploadFileCheck=Проверить наличие
+CB_RememberUploadStatus=Запомнить состояние
+PB_ClearUploadStatusFile=Очистить лог ошибок
+CB_RetryFailedFile=Повторить ошибочные
+PB_ViewFailedFile=Показать лог ошибок
+CB_ChangeUpperToLower=ВЕРХНИЙ регистр на нижний
+CB_LogonRetry=Кол-во попыток
+CB_IgnoreFileExtension=Игнорировать эти расширения
+PB_AddIgnoreFileExtension=Добавить
+PB_DeleteIgnoreFileExtension=Удалить
+PB_ClearIgnoreFileExtension=Очистить
+CB_ShowIgnoredFileList=Показать список файлов
+GB_Transfer_Mode=Режим передачи (FTP)
+RB_Upload_ASCII=ASCII (текстовый)
+RB_Upload_Binary=Binary (бинарный)
+RB_Upload_Auto=Авто (По умолчанию - бинарный)
+PB_AddAsciiExtension=Добавить
+PB_DeleteAsciiExtension=Удалить
+PB_ClearAsciiExtension=Очистить
+DT_ASCII_Mode_List=Режим ASCII
+PB_OpenRegistry=Registry,О программе Jasmine
+PB_ExitPreference=Закрыть
+GB_CloseCommand=Close Command
+CB_CloseCommand=Close Command
+GB_Upload_File_Status=Состояние закачки файла
+CB_StatusTransferMode=Режим передачи
+CB_StatusFileSize=Размер файла
+CB_StatusUploadSummary=Всего закачано
+CB_SilentStatusIndication=Беззвучная индикация состояния
+GB_Font=Шрифт
+PB_SetWindowFont=Шрифт
+DT_WindowFont=Шрифт окна
+DT_StatusFont=Шрифт состояния
+PB_SetStatusFont=Шрифт
+GB_Takeout=Тейк-аут
+CB_Takeout=Тейк-аут
+GB_SequencialRunMode=Режим работы по расписанию
+CB_SequentialRunMode=Режим работы по расписанию
+DT_Default=По умолч.
+CB_DisableSoundDuringSequentialRunning=Без звука
+GB_SetLanguage=Язык интерфейса
+RB_Language_Default=По умолч. (Нужна перезагрузка)
+RB_Language_Custom=Другой
+GB_HTML_Keyword_Exchange_Function=HTML Keyword Exchange (FTP)
+CB_HtmlKeywordExchange=HTML Keyword Exchange
+GB_HKE_FileSize=Размер файла
+RB_HKE_FileSize_Bit=Бит
+RB_HKE_FileSize_Byte=Байт
+RB_HKE_FileSize_KByte=KB
+GB_HKE_DateStyle=Стиль даты
+RB_HKE_DateStyle_yyyymmdd=гггг/мм/дд
+RB_HKE_DateStyle_ddmmyyyy=дд/мм/гггг
+RB_HKE_DateStyle_mmddyyyy=мм/дд/гггг
+GB_HKE_DateSeparator=Разделитель
+RB_HKE_DateSeparator_Slash=Слэш [/]
+RB_HKE_DateSeparator_Dot=Дот [.]
+GB_HKE_MonthIndication=Указатель месяца
+RB_HKE_DateMonthIndication_Number=Номер (01,02...12)
+RB_HKE_DateMonthIndication_Alphabet=Букв. (Янв, Февр...Дек)
+;GB_CopyOption=Опции копирования (COPY)
+;CB_CopyWhenNoTarget=Копировать в скрытую
+
+#SW_Registry
+
+#SW_Takeout
+SW_Takeout=Jasmine-Тейк-аут
+PB_SelectFilesNotAvailableAtLocalDirectory=Выбор файлов не из локальной/исходящей директории
+PB_SearchLogFiles=Создать файл тейк-аута
+PB_ExitTakeout=Выход
+PB_RunTakeout=Тейк-аут!
+PB_RunTakeoutAutomatically=Авто
+DT_TakeoutSiteName=Имя сайта
+PB_ClearSelectedData=Очистить выбранные
+PB_OpenTakeoutLocalFolder=Открыть локальную
+CM_CreateTakeoutData_Yes=Да, продолжить
+CM_CreateTakeoutData_Cancel=Отказаться
+
+#SW_AlertDeleteSite
+DT_DeleteSite=Удалить сайт
+PB_DeleteSiteYes=OK
+PB_DeleteSiteNo=Отмена
+
+#SW_SelectCompulsoryUploadFile
+SW_SelectCompulsoryUploadFile=Jasmine-Выбор дополнительных файлов
+PB_Set_CompulsoryUploadFile=Найти
+PB_Cancel_CompulsoryUploadFile=Сброс
+CM_CUF_CancelSelect=Отменить выбор
+CM_CUF_CancelAll=Отменить все
+
+#SW_LogViewer
+SW_LogViewer=Jasmine-Просмотр лога
+DT_LogDirectory=Директория
+DT_LV_LogFileName=Имя файла-лога
+DT_LV_LogDataItems=Список логов
+DT_LV_LogDetail=Список эвентов
+PB_LV_ClearAllLogFiles=Очистить все логи
+PB_ExitLogViewer=Выход
+CM_ClearAllLogFiles_Yes=Да, продолжить
+CM_ClearAllLogFiles_Cancel=Отказаться
+
+#SW_SetExcludeUploadFiles
+SW_SetExcludeUploadFiles=Jasmine-Выбор исключаемых файлов
+DT_MUF_Directory=Директория
+DT_MUF_FileName=Имя файла
+DT_MUF_ExcludedUploadFileList=Файлы не подлежащие закачке
+PB_MUF_ExcludeSelectedDirectory=Исключить директорию
+PB_MUF_Save=Сохранить
+PB_MUF_Cancel=Отказ
+CM_MUF_ChangeDirectory=Смена директории
+CM_MUF_SetSelectedDirectory=Выбрать директорию
+CM_MUF_SetSelectedFile=Выбрать файлы
+CM_MUF_RemoveSelectedFile=Удалить выбранные
+
+#SW_SetAlwaysUploadFiles
+SW_SetAlwaysUploadFiles=Jasmine-Выбор файлов к постоянной закачке
+DT_AUF_Directory=Директория
+DT_AUF_FileName=Имя файла
+DT_AUF_AlwaysUploadFiles=Всегда закачивать файлы
+PB_AUF_Save=Сохранить
+PB_AUF_Cancel=Отказ
+DT_AUF_Once=Один раз в
+DT_AUF_Hour=Час(ов)
+CM_AUF_ChangeDirectory=Сменить директорию
+CM_AUF_SetSelectedFile=Выбрать файлы
+CM_AUF_RemoveSelectedFile=Удалить выбранные
+
+#SW_FailedFileList
+SW_FailedFileList=Jasmine-Список ошибочных файлов
+PB_ClearFailedData=Очистить список
+PB_FailedFileList_Close=Закрыть
+
+#SW_TimerRun
+SW_TimerRun=Jasmine-Установки таймера
+DT_TimerRun_Text_SiteName=Имя сайта
+RB_RunRegularly=С регулярностью
+DT_RunRegurary_TextEvery=Каждые
+RB_RunFixedTime=В назначенное время
+PB_TimerRun_Set=Установить
+PB_TimerRun_Change=Изменить
+PB_TimerRun_Delete=Удалить
+PB_TimerRun_Return=Выход
+CB_Create_Object_at_Startup_Folder=Создать объект в системном Startup Folder
+PB_OpenStartupFolder=Открыть системный Startup Folder
+CB_Minimized_Startup=Выполнять скрытно
+CB_Show_Timer_Counter=Показывать счетчик таймера
+CB_RunAtStartup=Выполнять при загрузке ("Регулярно")
+CM_TR_Delete=Удалить
+CM_TR_ConfirmDelete_Yes=Да, продолжить
+CM_TR_ConfirmDelete_Cancel=Отказаться

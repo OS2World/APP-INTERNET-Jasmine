@@ -1,0 +1,255 @@
+;
+; Jasmine - Language File : English
+;
+; NOTE : This file can be used by Jasmine version 4.01 beta 3 or higher.
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+LANGUAGE=English
+
+#MW_Jasmine
+DT_LocalDir=Local Dir,Source
+DT_RemoteDir=Remote Dir,Destination
+DT_FtpSite=Site Name
+PB_Run=Run
+PB_Exit=Exit
+CM_ExitJasmine=Exit
+CM_MinimizeJasmine=Minimize
+DT_Address=Address
+DT_UserID=User ID
+GB_Last_Upload_Date_and_Time=Last Upload Date and Time
+DT_Year=Year
+DT_Month=Month
+DT_Day=Day
+PB_ResetLastYear=Reset
+PB_ResetLastMonth=Reset
+PB_ResetLastDay=Reset
+PB_ResetLastTime=Reset
+DT_Hour=Hour
+DT_Min=Min
+PB_NewSite=New
+PB_DeleteSite=Delete
+DT_Account=Account
+PB_EditSite=Edit
+DT_CloseCommand=Close Cmd
+GB_Log=Logging
+RB_Log_Daily=Daily
+RB_Log_Monthly=Monthly
+CB_Log=Logging
+PB_ViewLogFile=View Log File
+PB_Preferences=Preferences
+GB_TimerRun=Timer Run
+PB_TimerRun_Setup=Setup
+GB_Sound=Sound
+PB_SetSound=Setup
+PB_Takeout=Takeout
+DT_Mode=Mode
+PB_OpenLocalFolder=Open
+PB_OpenRemoteFolder=Open
+DT_RunMode=Run Mode
+CB_CompulsoryUploadFile=Before running, select compulsory upload files
+PB_SetAlwaysUploadFiles=Set Always Upload Files
+PB_SetExcludedFiles=Set Excluded Files
+
+#SW_CheckFile
+SW_CheckFile=Jasmine - Upload File List
+PB_Upload_OK=OK
+PB_Upload_Cancel=Cancel
+PB_ChangeUploadStatus=Change Status of Selected FIle
+CM_UFL_CancelSelect=Cancel Select
+CM_UFL_CancelAll=Cancel All
+
+#SW_NewSiteName
+SW_NewSiteName=Jasmine - Enter/Edit Site Data
+DT_NewSiteName=Site Name
+PB_NewSite_OK=OK
+PB_NewSite_Cancel=Cancel
+DT_NewAddress=Address
+DT_NewUserID=User ID
+DT_NewPassword=Password
+DT_NewAccount=Account
+DT_NewLocalDir=Local Dir
+DT_NewRemoteDir=Remote Dir
+PB_NewSite_Clear=Clear
+DT_NewCloseCommand=Close Cmd
+RB_NewMode_FTP=FTP
+RB_NewMode_Copy=Copy
+DT_NewSiteMode=Mode
+PB_SetCloseCommand=Set
+
+#SW_SetSound
+SW_SetSound=Jasmine - Set Sound
+CB_Sound_Start=Start
+CB_Sound_No_File=No File found
+CB_Sound_Logon_Successfully=Logon Successflly
+CB_Sound_Logon_Failed=Logon Failed
+CB_Sound_Save_Log=Save Log File
+CB_Sound_End=End
+PB_Sound_OK=OK
+PB_Sound_Cancel=Cancel
+DT_SoundDirectory=Sound Dir
+PB_DefaultSoundSet=Default
+DT_SoundVolume=Volume
+
+#SW_Preference
+SW_Preference=Jasmine - Preference
+GB_Upload_Option=Upload Option
+CB_ManageUploadFiles=Manage Upload Files
+CB_UploadFileCheck=Upload File Check
+CB_RememberUploadStatus=Remember Status
+PB_ClearUploadStatusFile=Clear Data File
+CB_RetryFailedFile=Retry Failed File
+PB_ViewFailedFile=View Data File
+CB_ChangeUpperToLower=Change UPPER to lower
+CB_LogonRetry=Logon Retry
+CB_IgnoreFileExtension=Ignore File Extension
+CB_AutoTakeout=Auto Takeout
+PB_AddIgnoreFileExtension=Add
+PB_DeleteIgnoreFileExtension=Delete
+PB_ClearIgnoreFileExtension=Clear
+CB_ShowIgnoredFileList=Show Ignored File List
+GB_Transfer_Mode=Transfer Mode (FTP)
+RB_Upload_ASCII=ASCII
+RB_Upload_Binary=Binary
+RB_Upload_Auto=Auto (Default Binary)
+PB_AddAsciiExtension=Add
+PB_DeleteAsciiExtension=Delete
+PB_ClearAsciiExtension=Clear
+DT_ASCII_Mode_List=ASCII Mode
+PB_OpenRegistry=Registry,About Jasmine
+PB_ExitPreference=Return
+GB_CloseCommand=Close Command
+CB_CloseCommand=Close Command
+GB_Upload_File_Status=Upload File Status
+CB_StatusTransferMode=Transfer Mode
+CB_StatusFileSize=File Size
+CB_StatusUploadSummary=Upload Summary
+CB_SilentStatusIndication=Silent Status Indication
+GB_Font=Font
+PB_SetWindowFont=Font
+DT_WindowFont=Window Font
+DT_StatusFont=Status Font
+PB_SetStatusFont=Font
+GB_Takeout=Takeout
+CB_Takeout=Takeout
+GB_SequencialRunMode=Sequential Run Mode
+CB_SequentialRunMode=Sequential Run Mode
+DT_Default=Default
+CB_DisableSoundDuringSequentialRunning=Disable Sound
+GB_SetLanguage=Set Language
+RB_Language_Default=Default (Require Restart)
+RB_Language_Custom=Custom
+GB_HTML_Keyword_Exchange_Function=HTML Keyword Exchange (FTP)
+CB_HtmlKeywordExchange=HTML Keyword Exchange
+GB_HKE_FileSize=File Size
+RB_HKE_FileSize_Bit=Bit
+RB_HKE_FileSize_Byte=Byte
+RB_HKE_FileSize_KByte=KB
+GB_HKE_DateStyle=Date Style
+RB_HKE_DateStyle_yyyymmdd=yyyy/mm/dd
+RB_HKE_DateStyle_ddmmyyyy=dd/mm/yyyy
+RB_HKE_DateStyle_mmddyyyy=mm/dd/yyyy
+GB_HKE_DateSeparator=Separator
+RB_HKE_DateSeparator_Slash=Slash [/]
+RB_HKE_DateSeparator_Dot=Dot [.]
+GB_HKE_MonthIndication=Month Indication
+RB_HKE_DateMonthIndication_Number=Number (01,02...12)
+RB_HKE_DateMonthIndication_Alphabet=Alphabet (Jan, Feb...Dec)
+;GB_CopyOption=Copy Option (COPY)
+;CB_CopyWhenNoTarget=Copy When No Target
+
+#SW_Registry
+
+#SW_Takeout
+SW_Takeout=Jasmine - Takeout
+PB_SelectFilesNotAvailableAtLocalDirectory=Select Files Not Available at Local/Source Directory
+PB_SearchLogFiles=Create Takeout Data
+PB_ExitTakeout=Exit Takeout
+PB_RunTakeout=Takeout!
+PB_RunTakeoutAutomatically=Auto
+DT_TakeoutSiteName=Site Name
+PB_ClearSelectedData=Clear Selected Data
+PB_OpenTakeoutLocalFolder=Open Local Folder
+CM_CreateTakeoutData_Yes=Yes, go ahead
+CM_CreateTakeoutData_Cancel=Cancel
+
+#SW_AlertDeleteSite
+DT_DeleteSite=Delete Site
+PB_DeleteSiteYes=OK
+PB_DeleteSiteNo=Cancel
+
+#SW_SelectCompulsoryUploadFile
+SW_SelectCompulsoryUploadFile=Jasmine - Select Compulsory Upload Files
+PB_Set_CompulsoryUploadFile=Set
+PB_Cancel_CompulsoryUploadFile=Cancel
+CM_CUF_CancelSelect=Cancel Select
+CM_CUF_CancelAll=Cancel All
+
+#SW_LogViewer
+SW_LogViewer=Jasmine - Log Viewer
+DT_LogDirectory=Log Directory
+DT_LV_LogFileName=Log File Name
+DT_LV_LogDataItems=Log Data Items
+DT_LV_LogDetail=Log Detail
+PB_LV_ClearAllLogFiles=Clear All Log Files
+PB_ExitLogViewer=Return
+CM_ClearAllLogFiles_Yes=Yes, go ahead
+CM_ClearAllLogFiles_Cancel=Cancel
+
+#SW_SetExcludeUploadFiles
+SW_SetExcludeUploadFiles=Jasmine - Set Exclude Upload Files
+DT_MUF_Directory=Directory
+DT_MUF_FileName=File Name
+DT_MUF_ExcludedUploadFileList=Excluded Upload Files
+PB_MUF_ExcludeSelectedDirectory=Exclude Selected Directory
+PB_MUF_Save=Save
+PB_MUF_Cancel=Cancel
+CM_MUF_ChangeDirectory=Change Directory
+CM_MUF_SetSelectedDirectory=Set Selected Directory
+CM_MUF_SetSelectedFile=Set Selected File
+CM_MUF_RemoveSelectedFile=Remove Selected File
+
+#SW_SetAlwaysUploadFiles
+SW_SetAlwaysUploadFiles=Jasmine - Set Always Upload Files
+DT_AUF_Directory=Directory
+DT_AUF_FileName=File Name
+DT_AUF_AlwaysUploadFiles=Always Upload Files
+PB_AUF_Save=Save
+PB_AUF_Cancel=Cancel
+DT_AUF_Once=Once per
+DT_AUF_Hour=Hour(s)
+CM_AUF_ChangeDirectory=Change Directory
+CM_AUF_SetSelectedFile=Set Selected File
+CM_AUF_RemoveSelectedFile=Remove Selected File
+
+#SW_FailedFileList
+SW_FailedFileList=Jasmine - Failed File List
+PB_ClearFailedData=Clear All
+PB_FailedFileList_Close=Close
+
+#SW_TimerRun
+SW_TimerRun=Jasmine - Timer Run Setup
+DT_TimerRun_Text_SiteName=Site Name
+RB_RunRegularly=Run Regularly
+DT_RunRegurary_TextEvery=Every
+RB_RunFixedTime=Run Fixed Time
+PB_TimerRun_Set=Set New
+PB_TimerRun_Change=Change
+PB_TimerRun_Delete=Delete
+PB_TimerRun_Return=Return
+CB_Create_Object_at_Startup_Folder=Create Object at Startup Folder
+PB_OpenStartupFolder=Open Startup Folder
+CB_Minimized_Startup=Minimized Startup
+CB_Show_Timer_Counter=Show Timer Counter
+CB_RunAtStartup=Run at Startup ("Run Regularly" only)
+CM_TR_Delete=Delete
+CM_TR_ConfirmDelete_Yes=Yes, go ahead
+CM_TR_ConfirmDelete_Cancel=Cancel
+

@@ -1,0 +1,20 @@
+;
+; Jasmine.rc
+;
+icon 120 jasmine.ico
+icon 122 jasmine_demo.ico
+
+bitmap 130 jasmine1.bmp
+bitmap 132 jasmine2.bmp
+
+bitmap 134 sndon.bmp
+bitmap 136 sndoff.bmp
+bitmap 138 sounds.bmp
+
+bitmap 140 ken.bmp
+
+bitmap 142 cancel1.bmp
+bitmap 144 cancel2.bmp
+
+bitmap 150 timeron.bmp
+bitmap 152 timeroff.bmp

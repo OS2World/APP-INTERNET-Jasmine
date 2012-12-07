@@ -1,0 +1,1199 @@
+<html>
+<head>
+<title>Jasmine readme (English)</title>
+<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html" charset="latin1">
+
+<body>
+
+<center>
+    <font color="blick" size=7>
+    Jasmine
+    </font>
+    <br>
+    <font size=4 color="darkgoldenrod">
+    Auto FTP Uploader
+    </font>
+    <p>
+    <font size=2>
+    Copyright &copy; 1997-2003 Ken Kinoshita, Pretty Pop Software
+    <br>
+    e-mail :
+    <a href="mailto:prettypop@sakura.email.ne.jp">
+    prettypop@sakura.email.ne.jp
+    </a><br>
+    </font>
+</center>
+<p>
+
+
+<center>
+<a href="http://www.prettypop.net/">
+PrettyPop.net</a>
+<br>
+<a href="readme_j.htm">
+Readme - Japanese edition
+</a>
+</center>
+<p>
+
+
+<div class="item">
+Jasmine
+</div>
+<ul>
+    Jasmine is the ftp front-end using of the OS/2 WARP genuine part for FTP (File Transfer Protocol) for the maintainances of your webpages.
+    And Jasmine can copy local files to destination directory with same functions of FTP Mode.
+    Jasmine will put/copy the files and directories, only which are changed or altered from the last put/copy.
+    You can also select if you want to put/copy this time such automatically selected files and folders.
+    You may record the logs of uploaded files by either daily or monthly, too.
+    And you can remove remote files that uploaded/copied and managed by Jasmine.
+    <p>
+    This OS/2 application requires VROBJ.DLL, the runtime module from Watcom VX-REXX.
+    <br>
+    You can get a copy from...
+    <p>
+    <ul>
+        <li>
+        <a href="http://www.prettypop.net/software/runtime/vrobj21d.zip">
+        Download VROBJ.DLL 2.1d (vrobj21d.zip)</a>
+    </ul>
+</ul>
+<p>
+
+
+<div class="item">
+Install
+</div>
+<ul>
+    <li>
+    Legacy way
+    <p>
+    <ol>
+        <li type=1>
+        Unzip the archived file (jsm???r.zip) into any unique local directory.
+        <p>
+
+        <li type=1>
+        Run INSTALL.CMD by either OS/2 full screen or OS/2 session.
+        The Jasmine program object will automatically be created on your desktop.
+    </ol>
+    <p>
+
+    <li>
+    Install using WarpIN (WarpIN should be installed)
+    <p>
+    <ol>
+        <li type=1>
+        Run jsm???r.wpi file and go ahead.
+    </ol>
+    <p>
+
+    You can get WarpIN from...
+    <p>
+    <ul>
+        <li type=circle>
+        <a href="http://www.xworkplace.org/proj_warpin.html" target=_blank>
+        xworkplace.org: WarpIN</a>
+    </ul>
+</ul>
+<p>
+
+
+<div class="item">
+Usage
+</div>
+<ul>
+    <li>
+    Create/Delete Site
+    <p>
+    <ol>
+        <li type=1>
+        Push the `New' button to create the site.
+        <p>
+        <ol>
+            <li type=a>
+            Register FTP Site
+            <br>
+            Select `FTP' radio button (default),
+            and type correctly each and every information of your FTP site as:
+            Address, User ID, Password, Account, Local Dir, Remote Dir.
+            For Instance:
+            <p>
+
+            <ul>
+                <table cellspacing=0>
+                    <tr>
+                        <td>Address     </td><td>:</td><td>ftp.jasmine.com   </td>
+                    </tr><tr>
+                        <td>User ID     </td><td>:</td><td>(your user id)    </td>
+                    </tr><tr>
+                        <td>Password    </td><td>:</td><td>(your password)   </td>
+                    </tr><tr>
+                        <td>Account     </td><td>:</td><td>(blank)           </td>
+                    </tr><tr>
+                        <td>Local Dir   </td><td>:</td><td>f:\wwwhome\index  </td>
+                    </tr><tr>
+                        <td>Remote Dir  </td><td>:</td><td>public_html       </td>
+                    </tr><tr>
+                        <td>Exit Command</td><td>:</td><td>(optional command)</td>
+                    </td>
+                </table>
+                <p>
+
+                <li type=disc>
+                Above are the case if your FTP site is `ftp.jasmine.com'.
+                <li type=disc>
+                Your local directory is `f:\wwwhome\index'.
+                <li type=disc>
+                Remote directory of your FTP site is `homepage'.
+            </ul>
+            <P>
+
+            <li type=a>
+            Register COPY Site
+            <br>
+            Select `COPY' radio button,
+            and type correctly each and every information of your COPY site as:
+            Source and Destination.
+            For Instance:
+            <p>
+            <ul>
+                <table cellspacing=0>
+                    <tr>
+                        <td>Source     </td><td>:</td><td>f:\wwwhome\index  </td>
+                    </tr><tr>
+                        <td>Destination</td><td>:</td><td>g:\backup         </td>
+                    </td>
+                </table>
+                <p>
+
+                <li type=disc>
+                Above are the case if your source directory is `f:\wwwhome\index'.
+                <li type=disc>
+                Your destination directory is `g:\backup'.
+            </ul>
+            <p>
+        </ol>
+        <p>
+
+        <font color="red">
+        Please push the `Save' button after you input.
+        </font>
+        <p>
+
+        <li type=1>
+        Push the `Delete' button to delete the site
+        <br>
+        You may delete the saved FTP/COPY site information by pushing the `Delete' button.
+    </ol>
+    <p>
+
+    <li>
+    Basic Usage
+    <p>
+    <ol>
+        <li type=a>
+        FTP Mode
+        <p>
+        <ol>
+            <li type=1>
+            Dialup to your Host Provider if you are contracted ISV(InternetServiceProvider) based with Dialup User Service.
+            Otherwise, check that you are now connected to the Internet so far.
+            <p>
+
+            <li type=1>
+            Check the contents in the indication, and click the `RUN' button when everything is O.K.
+            <p>
+
+            <li type=1>
+            The program will login to your FTP site, and start to transfer the contents which are made and/or altered after the date and the time of `the Last Update'.
+            <p>
+
+            <li type=1>
+            Watch the status window and click the `EXIT' when it's done!
+            <p>
+
+            <font color="red">
+            <u>Attention</u>
+            <br>
+            Don't forget log off the dialer especially if you are the Dialup user!!
+            </font>
+        </ol>
+        <p>
+
+        <li type=a>
+        COPY Mode
+        <p>
+        <ol>
+            <li type=1>
+            Click the `RUN' button when everything is O.K.
+            <p>
+
+            <li type=1>
+            The program will start to copy the contents which are made and/or altered after the date and the time of `the Last Update'.
+            <p>
+
+            <li type=1>
+            Watch the status window and click the `EXIT' when it's done!
+        </ol>
+        <p>
+
+        <font color="red">
+        <u>Attention</u>
+        <br>
+        Please note that the program will automatically put/copy the files and folders,
+        which means that the current files on the FTP server/destination directory under the same name will be over written and you may not be able to hold them anyway!
+        </font>
+    </ol>
+    <p>
+
+    <li>
+    Functions
+    <p>
+    <ol>
+        <li type=circle>
+        Logging
+        <p>
+        <ul>
+            <li type=circle>
+            Check `Logging' check box, if you want to log status.
+            <p>
+
+            <li type=circle>
+            The daily or monthly, as you selected, log files will be kept in the log folder under the `Jasmine' folder.
+            <p>
+
+            <li type=circle>
+            Click `View Log File' button if you want to see log details.
+            <p>
+
+            <li type=circle>
+            Click `Clear All Log Files' button on Log Viewer if you want to delete all log files.
+        </ul>
+        <p>
+
+        <li type=circle>
+        `Before running, select compulsory upload files' Function
+        <br>
+        Check `Before running, select compulsory upload files' check box if you want to upload/copy NOT UPDATED files.
+        <p>
+
+        <font color="red">
+        <u>Attention</u>
+        <br>
+        When `Sequential Run Mode' is enabled, this function is valid at `Selected Site Only' mode.
+        </font>
+        <p>
+
+        <li type=circle>
+        `Set Always Upload Files' Function
+        <br>
+        Click `Set Always Upload Files' button if you want to set files which you want to upload evertime when Jasmine run.
+        You can set interval time, too.
+        <p>
+
+        <li type=circle>
+        `Set Excluded Files' Function
+        <br>
+        Click `Set Excluded Files' button if you want to set files/directories which you don't want to upload/copy.
+        <p>
+
+        <li type=circle>
+        Upload/Copy Functions
+        <p>
+        <ol>
+            <li type=a>
+            `Logon Retry' Function (FTP Mode)
+            <br>
+            Check `Logon Retry' check box if you want retry logon when logon is failed.
+            You may select retry number.
+            <p>
+
+            <li type=a>
+            `Change UPPER to lower' Function
+            <br>
+            Check `Change UPPER to lower' check box if you want change all UPPER case to lower case when Jasmine will upload/copy.
+            <p>
+
+
+            <li type=a>
+            `Manage Upload Files' Function
+            <p>
+            <ul>
+                <li type=disc>
+                `Upload File Check' Function
+                <br>
+                You may check the automatically seleceted files and folders once the `Upload File Check' check box is checked otherwise program will put/copy all the files
+                and folders being automatically selected by the program, which might have the newer time stamp.
+                <p>
+
+                <li type=disc>
+                `Remember Status' Function
+                <br>
+                Check `Remember Status' check box, if you want Jasmine to remember the status you set at `Upload File List' window.
+                <p>
+            </ul>
+            <p>
+
+            <li type=a>
+            `Remember Upload Status' Function
+            <br>
+            Check `Remember Upload Status' check box if you want to remember files that you set `Disabled' at `Upload File Check' window.
+            <br>
+            <font color="red">
+            <u>Attention</u>
+            <br>
+            This function is valid when `Upload File Check' function is enabled.
+            </font>
+            <p>
+
+            <li type=a>
+            `Retry Failed File at Next Time' Function
+            <br>
+            Check `Retry Failed File' check box if you want to retry upload files that was failed at previously.
+            <p>
+
+            <li type=a>
+            `Ignore File Extension' Function
+            <br>
+            Check `Ignore File Extension' check box if you doesn't want to upload/copy files that has same extension.
+        </ol>
+        <p>
+
+        <li type=circle>
+        File Transfer Mode (FTP Mode)
+        <p>
+        <ul>
+            <li type=disc>
+            You may select file transfer mode from ASCII/Binary/Auto.
+            <p>
+
+            <li type=disc>
+            When you select `Auto', all files will be transfered by Binary mode except files entered at `ASCII Mode' list.
+        </ul>
+        <p>
+
+        <li type=circle>
+        Show Upload Status
+        <p>
+        <ol>
+            <li type=a>
+            Show Transfer Mode (FTP Mode)
+            <br>
+            Check `Transfer Mode' check box if you want to indicate transfer mode every file.
+            <p>
+
+            <li type=a>
+            Show File Size
+            <br>
+            Check `File Size' check box if you want to indicate every upload/copy file size.
+            <p>
+
+            <li type=a>
+            Show Upload Summary
+            <br>
+            Check `Upload Summary' check box if you want to indicate upload/copy status.
+        </ol>
+        <p>
+
+        <li type=circle>
+        `Sequential Run' Function
+        <p>
+        <ul>
+            <li type=disc>
+            Check `Sequential Run Mode' check box if you want to use sequential upload/copy function.
+            <p>
+
+            <li type=disc>
+            Check `Disable Sound During Sequential Running' check box is you want to turn off the sound during sequential running.
+        </ul>
+        <p>
+
+        <li type=circle>
+        `Cancel Upload/Copy' Function
+        <p>
+        <ul>
+            <li type=disc>
+            Click `Cancel' button if you want to cancel upload/copy.
+            This button will show after click `Run' button.
+        </ul>
+        <p>
+
+        <li type=circle>
+        `Exit Command' Function
+        <p>
+        <ul>
+            <li type=disc>
+            Check `Exit Command' check box if you want to run any program after upload/copy is completed.
+            Exit command should be set by Site.
+        </ul>
+        <p>
+
+        <li type=circle>
+        Sound
+        <p>
+        <ul>
+            <li type=disc>
+            You may set sound set by clicking `Setup' button.
+        </ul>
+        <p>
+
+        <li type=circle>
+        Language Support
+        <p>
+        <ul>
+            <li type=disc>
+            You can customize indication of labels and buttons by your language.
+            Parameters, see sample language file,
+            <a href="english.lng">
+            english.lng</a>.
+            And anytime you can reset default labels (Jasmine restart is required).
+            <p>
+
+            <font color="red">
+            <u>Attention</u>
+            <br>
+            Language files should exist at same directory of Jasmine.
+            <br>
+            * Don't add/delete any parameters!
+            </font>
+            <p>
+
+            <li type=disc>
+            Attached Language Files
+            <p>
+
+            <ol>
+                <li type=a>
+                <a href="english.lng">english.lng</a> : `English' Language File (Sample)
+                <li type=a>
+                <a href="japanese.lng">japanese.lng</a> : `Japanese' Language File
+                <li type=a>
+                <a href="deutsch.lng">deutsch.lng</a> : `Deutsch/German' Language File
+                <li type=a>
+                <a href="portuguese.lng">portuguese.lng</a> : `Portuguese' Language File
+                <li type=a>
+                <a href="french.lng">french.lng</a> : `French' Language File
+            </ol>
+        </ul>
+    </ol>
+    <p>
+
+    <li>
+    `HTML Keyword Exchange' Function (FTP Mode)
+    <p>
+    <ol>
+        <li type=circle>
+        Check `HTML Keyword Exchange' check box if you want to exchange keywords (see below) to real data in HTML files when upload it.
+        <p>
+        <ul>
+            <table>
+                <tr>
+                    <td>Exchange to upload year</td>
+                    <td>:</td>
+                    <td>%JSM_UPLOAD_YEAR%</td>
+                </tr><tr>
+                    <td>Exchange to upload date</td>
+                    <td>:</td>
+                    <td>%JSM_UPLOAD_DATE%</td>
+                </tr><tr>
+                    <td>Exchange to upload time</td>
+                    <td>:</td>
+                    <td>%JSM_UPLOAD_TIME%</td>
+                </tr><tr>
+                    <td>Exchange to update year</td>
+                    <td>:</td>
+                    <td>%JSM_UPDATE_YEAR%</td>
+                </tr><tr>
+                    <td>Exchange to update date</td>
+                    <td>:</td>
+                    <td>%JSM_UPDATE_DATE%</td>
+                </tr><tr>
+                    <td>Exchange to update time</td>
+                    <td>:</td>
+                    <td>%JSM_UPDATE_TIME%</td>
+                </tr><tr>
+                    <td>Exchange to original file size</td>
+                    <td>:</td>
+                    <td>%JSM_FILE_SIZE%</td>
+                </tr><tr>
+                    <td>Last update date of designated file</td>
+                    <td>:</td>
+                    <td>%JSM_UPDATE_DATE=<i>file_name</i>%</td>
+                </tr><tr>
+                    <td>Last update time of designated file</td>
+                    <td>:</td>
+                    <td>%JSM_UPDATE_TIME=<i>file_name</i>%</td>
+                </tr><tr>
+                    <td>Designated file size.</td>
+                    <td>:</td>
+                    <td>%JSM_FILE_SIZE=<i>file_name</i>%</td>
+                </tr>
+            </table>
+            <font color="slategray"><i>
+            file_name = file name with full path or relative path.
+            </i></font>
+            <p>
+
+            <table>
+                <tr>
+                    <td nowrap valign="top">
+                        Latest Update Date/Time of designated files
+                    </td>
+                    <td valign="top">:</td>
+                    <td valign="top" nowrap>
+                        %JSM_LATEST=<i>fn_1, fn_2, ..., fn_n:TYPE</i>%
+                    </td>
+                </tr>
+            </table>
+            <font color="slategray"><i>
+            fn_x = file_names with full path or relative path.
+            <br>
+            TYPE = DATE, TIME, DATETIME, ALL, BOTH (DATETYPE=ALL=BOTH=null)
+            </i></font>
+        </ul>
+        <p>
+
+        You can include comment tag (`&lt;!--' and `--&gt;') in above keywords.
+        It means you can become to design your homepage without long keywords.
+        Normaly when you use `%JSM_UPLOAD_DATE%' in your homepage, your web browser just shows `%JSM_UPLOAD_DATE%' (at local page).
+        But when you include comment tag in the keyword, it only shows `%%' instead of long keyword.
+        <br>
+        Please refer following sample for how to use this function.
+        <p>
+        <ul>
+            <table cellspacing=3 cellpadding=3 border=0>
+                <tr>
+                    <td align="center" bgcolor="silver">
+                        Normal Style
+                    </td>
+                    <td align="center" bgcolor="silver">
+                        Including Comment Tag
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        %JSM_UPLOAD_DATE%
+                    </td>
+                    <td>
+                        %<font color="red">&lt;!--</font>JSM_UPLOAD_DATE<font color="red">--&gt;</font>%
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        %JSM_UPDATE_DATE=<i>file_name</i>%
+                    </td>
+                    <td>
+                        %<font color="red">&lt;!--</font>JSM_UPDATE_DATE=<i>file_name</i><font color="red">--&gt;</font>%
+                    </td>
+                </tr>
+            </table>
+        </ul>
+        <p>
+
+        <li type=circle>
+        `Date Separator' parameter
+        <br>
+        You can select date separator from SLASH(/) and DOT(.).
+        <p>
+
+        <li type=circle>
+        `Month Indication' parameter
+        <br>
+        You can select month indication from Number (01,02...12)
+        and Alphabet (Jan, Feb...Dec).
+    </ol>
+    <p>
+
+
+    <li>
+    `Takeout' Function
+    <p>
+    <ol>
+        <li type=circle>
+        You can remove remote files that uploaded/copied and managed by Jasmine.
+        <br>
+        For using Takeout function, at first check `Takeout' check box at Preference.
+        When `Takeout' function become enabled, you will find `Takeout' button at Jasmine main window.
+        <p>
+
+        <li type=circle>
+        When Takeout function is enabled, takeout data file is updated after every upload.
+        <br>
+        Jasmine make Takeout Data File at first startup of Takeout.
+        It might take longer time for searching log file if there are many log files.
+        <p>
+
+        <li type=circle>
+        How to use
+        <p>
+        <ol>
+            <li type=1>
+            Jasmine Takeout window will available when click `Takeout' button.
+            <p>
+
+            <li type=1>
+            You may now look the takeout candidates with its status at the list box `Jasmine Takeout' window.
+            <p>
+
+            <li type=1>
+            Select files that you want to takeout with use of Ctrl key.
+            <p>
+
+            <li type=1>
+            Click `Takeout!' button, then Jasmine start to remove selected files form host.
+            <p>
+
+            <li type=1>
+            All removed files are removed from Takeout Data File.
+        </ol>
+        <p>
+
+        <font color="lightseagreen">
+        NOTE:
+        </font>
+        <ul>
+            <li type=disc>
+            You might be noticed as `Failed' when you will delete the files which are not available at your host/destination directory.
+        </ul>
+        <p>
+
+        <li type=circle>
+        Other Takeout Functions
+        <p>
+        <ol>
+            <li type=a>
+            Eliminate the files from Takeout candidates.
+            <p>
+            <ol>
+                <li type=1>
+                You may select files which you like to eliminate from the candidates with use of Ctrl key when the files are more than one.
+                <p>
+
+                <li type=1>
+                Push `Clear Takeout Data' button.
+                <br>
+                The files you like to eliminate from the candidates will be eliminated from the candidates.
+            </ol>
+            <p>
+
+            <li type=a>
+            Select only files not existing at your local/source directory.
+            <br>
+            Jasmine can automatically search files which are not available on local/source directory.
+            <p>
+            <ul>
+                <li type=disc>
+                Click `Select Files NOT Available at Local/Source Directory' button, then start search files.
+                <p>
+
+                <li type=disc>
+                After search is finished, only <b>NOT</b> Available at Local/Source Directory files are selected.
+            </ul>
+            <p>
+
+            <li type=a>
+            Reconstruct Takeout Data.
+            <p>
+            <ul>
+                <li type=disc>
+                Push `Create Takeout Data' button will recover the candidates which you have eliminated from the candidates to the candidates once again by searching log files.
+            </ul>
+        </ol>
+    </ol>
+    <p>
+
+    <li>
+    Timer Run
+    <p>
+    <ol>
+        <li type=circle>
+        Run mode
+        <p>
+        <ol>
+            <li type=a>
+            Run Regularly
+            <br>
+            Jasmine run selected site by appointed time intervals from start up.
+            <p>
+
+            <li type=a>
+            Run Fixed Time
+            <br>
+            Jusmine run selected site at appointed time.
+            <br>
+        </ol>
+        <p>
+
+        <li type=circle>
+        Functions
+        <p>
+        <ol>
+            <li type=a>
+            Create Object at Startup Folder
+            <br>
+            Check `Create Object at Startup Folder' check box, if you want to create object of Jasmine in Startup folder.
+            <p>
+
+            <li type=a>
+            Minimized Startup
+            <br>
+            Check `Minimized Startup' check box, if you want to startup Jasmine as minimized (hidden).
+            <p>
+
+            <li type=a>
+            Show Timer Counter
+            <br>
+            Check `Show Timer Run' check box, if you want to show Timer Run counter on Jasmine main window.
+            <p>
+
+            <li type=a>
+            Run at Startup (`Run Regularly' mode only)
+            <br>
+            Check `Run at Startup' check box, if you want to upload at Jasmine startup time.
+        </ol>
+    </ol>
+</ul>
+<p>
+
+
+<div class="item">
+Working Conditions:
+</div>
+<ul>
+    OS/2 Warp V4 + RexxFtp
+</ul>
+<p>
+
+
+<div class="item">
+Distribution
+</div>
+<ul>
+   Please ask a written consent of the author before distributing this software in any manner.
+   You may not modify Jasmine in any way nor may you reverse assemble,
+   reverse compile, or otherwise translate or reverse engineer its executable codes or datas.
+</ul>
+<p>
+
+
+<div class="item">
+License Agreement
+</div>
+<ul>
+    Jasmine, its executable and documentation, is the copyrighted property of Ken Kinoshita.
+    It is licensed, not given, for your personal use.
+</ul>
+<p>
+
+
+<div class="item">
+Warranty...
+</div>
+<ul>
+    This program is AS IS CONDITION and the writer should not have any responsibilities but hold the copyright.
+    Testing and bug reports are welcomed.
+</ul>
+<p>
+
+
+<div class="item">
+Reports
+</div>
+<ul>
+    <font color="darkgreen">
+    Email:
+    </font>
+    <ul>
+        <a href="mailto:prettypop@sakura.email.ne.jp">
+        Ken Kinoshita &lt;prettypop@sakura.email.ne.jp&gt;
+        </a>
+        <br>
+        Opinions, ideas, or bug reports are encouraged.
+    </ul>
+</ul>
+<p>
+
+
+<div class="item">
+Pretty Pop Software Home Page
+</div>
+<ul>
+    All latest files and information are available on...
+    <p>
+
+    <ul>
+        <li>
+        <a href="http://www.prettypop.net/">
+        PrettyPop.net</a>
+        </a>
+    </ul>
+</ul>
+<p>
+
+
+<div class="item">
+Thanks to...
+</div>
+<ul>
+    <table>
+        <tr>
+            <td colspan=3>
+                Special thanks to...
+            </td>
+        </tr>
+        <tr>
+            <td nowrap>
+                <a href="http://y7.net/u/ri.html" target=_blank>
+                Tetsuya Suto
+                </a>
+            </td>
+            <td>:</td>
+            <td nowrap>
+                Japanese & English Readme
+            </td>
+        </tr>
+        <tr>
+            <td nowrap>
+                <a href="mailto:Lueko.Willms@t-online.de" target=_blank>
+                Lueko Willms</a>
+                /
+                <a href="http://homepages.fbmev.de/bm612973/" target=_blank>
+                Robert B&ouml;ck</a>
+                /
+                <a href="http://home.snafu.de/ohei/" target=_blank>
+                Oliver Heidelbach</a>
+            </td>
+            <td>:</td>
+            <td nowrap>
+                `Deutsch/German' Language File
+            </td>
+        </tr>
+        <tr>
+            <td nowrap>
+                <a href="mailto:pinho@myself.com">
+                Ricardo Costa Pinho
+                </a>
+            </td>
+            <td>:</td>
+            <td nowrap>
+                `Portuguese' Language File
+            </td>
+        </tr>
+        <tr>
+            <td nowrap>
+                <a href="mailto:tdd0002@attglobal.net">
+                Thierry LEFEVRE
+                </a>
+                /
+                S&eacute;bastien Morand
+            </td>
+            <td>:</td>
+            <td nowrap>
+                `French' Language File
+            </td>
+        </tr>
+    </table>
+</ul>
+<p>
+
+
+<div class="item">
+History
+</div>
+<ul>
+    <b>Version 1.00</b> (11.Nov.1997)
+    <ol>
+        <li type=a>
+        This is first version.
+    </ol>
+    <p>
+
+    <b>Version 1.10</b> (25.Nov.1997)
+    <ol>
+        <li type=a>
+        Added Sound Function.
+        <li type=a>
+        Added the new function to change the fonts in the Jasmine windows.
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 1.11</b> (07.Dec.1997)
+    <ol>
+        <li type=a>
+        Added `Logon Retry' Function
+    </ol>
+    <p>
+
+    <b>Version 1.50</b> (16.May.1998)
+    <ol>
+        <li type=a>
+        Added `Change UPPER To lower' Function.
+        <li type=a>
+        Added `Exit Command' Function.
+        <li type=a>
+        Added `Ignore File Extension' Function.
+        <li type=a>
+        Added `Show Upload Summary' Function.
+        <li type=a>
+        Added `Auto Transfer Mode' Function.
+        <li type=a>
+        Added `Cancel Upload' Function.
+        <li type=a>
+        Other minor parts were also modified.
+        <li type=a>
+        Became The SHAREWARE.
+    </ol>
+    <p>
+
+    <b>Version 2.00</b> (31.May.1998)
+    <ol>
+        <li type=a>
+        Added `Takeout' Function.
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 2.01</b> (02.Jun.1998)
+    <ol>
+        <li type=a>
+        Fixed a problem that Takeout Data doesn't synchronize when delete/add FTP Site Data.
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 2.50</b> (05.Sep.1998)
+    <ol>
+        <li type=a>
+        Changed `Ignore File Check' timing.
+        <li type=a>
+        Changed specification of `Ignore File List'.
+        <li type=a>
+        Corrected the problem when there are no `Ignore' files.
+        <li type=a>
+        Corrected the problem when input NULL at Ignore file and ASCII Extension text box.
+        <li type=a>
+        Subject changed to the List will automatically add the `*'(asterisk) when it is not typed to set.
+        <li type=a>
+        Added `Local Copy' Function.
+        <li type=a>
+        Added `ShowIgnoredFileList' Mode.
+        <li type=a>
+        Added `Silent Status Indication' Mode.
+        <li type=a>
+        Corrected the Total File display error of Summary.
+        <li type=a>
+        Corrected the dispaly error of fonts in the `Takeout Window'.
+        <li type=a>
+        Changed specification to show Takeout Summary
+        <li type=a>
+        Modified the function to correct the `Created Takeout Data' when the file name includes the word "(".
+        <li type=a>
+        Added the new function to check Local(Source)/Remote(Destination) directory when register the Site.
+        <li type=a>
+        Added `Open Local Folder' Function.
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 2.51</b> (07.Sep.1998)
+    <ol>
+        <li type=a>
+        Corrected the probrem when input NULL at Source/Destination text box (COPY Mode).
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 2.55</b> (01.Oct.1998)
+    <ol>
+        <li type=a>
+        Changed specification of `Upload File Check' Function.
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 2.60</b> (27.Oct.1998)
+    <ol>
+        <li type=a>
+        Added `Sequential Run Mode'
+        <li type=a>
+        Modified the specification to verify it when the site, in option, will be deleted.
+    </ol>
+    <p>
+
+    <b>Version 2.70</b> (03.Jan.1999)
+    <ol>
+        <li type=a>
+        Fixed a problem that Takeout Data doesn't synchronize when Site Name is modified.
+        <li type=a>
+        Added `Language Support' function.
+        <li type=a>
+        Changed resource files (Bitmaps).
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 2.71</b> (03.Jan.1998)
+    <ol>
+        <li type=a>
+        Fixed the inconveniences occures when re-create Takeout Data after Site Name is modified.
+        <li type=a>
+        Fixed the inconveniences occures when register new site.
+    </ol>
+    <p>
+
+    <b>Version 2.72</b> (07.Apr.1998)
+    <ol>
+        <li type=a>
+        Fixed the inconveniences occures when change remote directory.
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 2.80</b> (08.May.1998)
+    <ol>
+        <li type=a>
+        Added `Retry Failed File at Next Time' function.
+        <li type=a>
+        Added `Remember Upload Status' function.
+        <li type=a>
+        Added `Disable Sound During Sequential Running' function.
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 2.85</b> (21.Jun.1998)
+    <ol>
+        <li type=a>
+        Added `Compulsory Upload File' function.
+        <li type=a>
+        Fixed the inconveniences occures when register new site.
+        <li type=a>
+        Other minor parts were also modified.
+     </ol>
+    <p>
+
+    <b>Version 2.86</b> (04.Jan.2000)
+    <ol>
+        <li type=a>
+        Fixed the minor inconveniences (some GUI and default parameters).
+    </ol>
+    <p>
+
+    <b>Version 2.90</b> (01.May.2000)
+    <ol>
+        <li type=a>
+        Added `Show Selected Status Window's Text at Context Menu' function.
+        <li type=a>
+        Added `Select Files NOT Available at Local/Source Directory' function.
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 3.00</b> (16.Sep.2000)
+    <ol>
+        <li type=a>
+        Added `Log Viewer'.
+        <li type=a>
+        Change specification of log file name.
+        <li type=a>
+        Reinforce `Language Support'.
+        <li type=a>
+        Include `deutsch.lng' file.
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 3.00a</b> (21.Sep.2000)
+    <ol>
+        <li type=a>
+        Include `portuguese.lng' file.
+    </ol>
+    <p>
+
+    <b>Version 3.10</b> (04.Feb.2001)
+    <ol>
+        <li type=a>
+        Added `HTML Key Exchange' Function.
+        <li type=a>
+        Fixed the inconvenience occurs when delete log files.
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 3.20</b> (19.Jun.2001)
+    <ol>
+        <li type=a>
+        Added `Set Excluded Files' Function.
+        <li type=a>
+        Added `Always Upload Files' Function
+        <li type=a>
+        Upgrade `HTML Keyword Exchange' Function - Date Separator, Month Indication
+        <li type=a>
+        Added `Enhanced HTML Keyword Exchange' Function.
+    </ol>
+    <p>
+
+    <b>Version 3.30</b> (16.Feb.2002)
+    <ol>
+        <li type=a>
+        Added upload/update year key in `HTML Keyword Exchange' function.
+        <li type=a>
+        Added Latest Update Date/Time of Selected Files key in `HTML Keyword Exchange' function.
+        <li type=a>
+        Fixed the inconvenience of `Takeout' function when using `Change UPPER to lower' function.
+        <li type=a>
+        Added `Failed File List' window.
+        <li type=a>
+        Fixed some minor inconveniences.
+    </ol>
+    <p>
+
+    <b>Version 3.31</b> (15.Sep.2002)
+    <ol>
+        <li type=a>
+        Enhance `HTML Keyword Exchange' function to become to use comment tag.
+        <li type=a>
+        Include `french.lng' file.
+    </ol>
+    <p>
+
+    <b>Version 4.00</b> (12.Sep.2004)
+    <ol>
+        <li type=a>
+        Add `Timer Run' function.
+        <li type=a>
+        `Language File' function supports context menu.
+        <li type=a>
+        Fix the inconvenience of 'Enhanced HTML Keyword Exchange' when using relational path.
+        <li type=a>
+        Change specification of Cancel button of `Check File' and `Select Compulsory Upload Files' window.
+        <li type=a>
+        Change specification of target file selection on COPY mode.
+        <li type=a>
+        Fixed some minor inconveniences.
+        <li type=a>
+        Released version 4.00 as freeware.
+    </ol>
+</ul>
+
+<font color="snow">
+
+</body>
+</html>
+
